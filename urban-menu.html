@@ -1,0 +1,2290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Order Now — Urban Crust Menu | Best Fast Food in Islamabad</title>
+<meta name="description" content="Full Urban Crust menu with prices: burgers, Crown Crust pizza, deals, wings, broast, shawarma and fries. Free delivery in Islamabad (D-17, E-16, E-17). Order on WhatsApp.">
+<!-- PWA -->
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#FFD400">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Urban Crust">
+
+<link rel="canonical" href="https://urbancrust.powertree.site/urban-menu.html">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:url" content="https://urbancrust.powertree.site/urban-menu.html">
+<meta property="og:site_name" content="Urban Crust">
+<meta property="og:locale" content="en_PK">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Urban Crust Menu & Prices — Islamabad">
+<meta name="twitter:description" content="Burgers, pizza, deals, wings, broast and more. Free delivery in Islamabad.">
+<meta name="twitter:image" content="https://urbancrust.powertree.site/images/gallery/zinger-burger.jpg">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Urban Crust Menu &amp; Prices — Islamabad">
+<meta property="og:description" content="Burgers, pizza, deals, wings, broast and more. Free delivery in Islamabad.">
+<meta property="og:image" content="https://urbancrust.powertree.site/images/gallery/zinger-burger.jpg">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Restaurant", "@id": "https://urbancrust.powertree.site/#restaurant", "name": "Urban Crust", "url": "https://urbancrust.powertree.site/", "image": ["https://urbancrust.powertree.site/images/gallery/cheezy-pizza.jpg", "https://urbancrust.powertree.site/images/gallery/zinger-burger.jpg"], "logo": "https://urbancrust.powertree.site/images/logo.png", "description": "Fast food restaurant in Islamabad serving Crown Crust pizza, zinger burgers, broast, shawarma and family deals with free delivery to D-17, E-16 and E-17.", "telephone": "+92-336-9226600", "address": {"@type": "PostalAddress", "streetAddress": "Alpha Arcade, E-16/3, Near Masjid Ibrahim", "addressLocality": "Islamabad", "addressCountry": "PK"}, "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], "opens": "13:00", "closes": "02:00"}], "servesCuisine": ["Fast Food", "Pizza", "Burgers", "Broast", "Chinese"], "priceRange": "Rs. 150 - Rs. 3,300", "hasMenu": "https://urbancrust.powertree.site/urban-menu.html", "acceptsReservations": "False", "areaServed": [{"@type": "Place", "name": "D-17 Islamabad"}, {"@type": "Place", "name": "E-16 Islamabad"}, {"@type": "Place", "name": "E-17 Islamabad"}, {"@type": "Place", "name": "Roshan Pakistan"}], "sameAs": ["https://www.facebook.com/people/Urban-Crust/61566038663961/"]}</script>
+<style>/* failsafe: loader can never leave a blank screen, even if a script fails to load */
+#preloader{animation:ucLoaderOut .6s ease 9s forwards}@keyframes ucLoaderOut{to{opacity:0;visibility:hidden;pointer-events:none}}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}</style>
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png">
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/brand.css">
+<link rel="stylesheet" href="css/fx.css">
+<style>
+  /* ============ PAGE-SPECIFIC: MENU ============ */
+  :root{ --success:#25D366; --danger:#ff4d4d; }
+
+  .menu-hero{
+    padding:9.5rem 1.6rem 2.5rem;position:relative;overflow:hidden;text-align:center;
+  }
+  .menu-hero::before{content:'';position:absolute;inset:0;z-index:0;
+    background:radial-gradient(circle at 50% 0%, rgba(255,212,0,.16), transparent 55%);}
+  .menu-hero-inner{position:relative;z-index:1;max-width:760px;margin:0 auto;}
+  .menu-hero h1{font-family:var(--ff-display);font-weight:800;font-size:clamp(2.4rem,5.5vw,3.6rem);margin-bottom:.6rem;}
+  .menu-hero h1 span{color:var(--primary);}
+  .menu-hero p{color:var(--muted);font-size:1.05rem;}
+  .menu-hero-strip{display:flex;justify-content:center;gap:.9rem;flex-wrap:wrap;margin-top:1.6rem;}
+  .menu-hero-strip .pill{background:rgba(255,212,0,.08);border:1px solid var(--line);color:var(--primary);
+    padding:.5rem 1.1rem;border-radius:50px;font-size:.85rem;font-weight:700;display:flex;align-items:center;gap:.4rem;}
+
+  .menu-container{max-width:1360px;margin:0 auto;padding:0 1.4rem 5rem;}
+
+  /* Category tabs */
+  .category-tabs{
+    display:flex;gap:.7rem;flex-wrap:nowrap;overflow-x:auto;justify-content:flex-start;
+    margin-bottom:2.4rem;position:sticky;top:0;z-index:500;
+    background:rgba(7,7,7,.9);backdrop-filter:blur(14px);
+    padding:1.1rem 1rem;border-radius:0 0 26px 26px;border-bottom:1px solid var(--line);
+    scrollbar-width:thin;
+  }
+  .category-tabs::-webkit-scrollbar{height:6px;}
+  .tab-btn{
+    background:var(--panel);color:var(--white);border:2px solid transparent;
+    padding:.75rem 1.35rem;border-radius:50px;cursor:pointer;font-weight:700;font-family:var(--ff-display);
+    transition:all .3s;font-size:.92rem;white-space:nowrap;flex:0 0 auto;
+  }
+  .tab-btn:hover{border-color:rgba(255,212,0,.5);}
+  .tab-btn.active{
+    background:linear-gradient(120deg,var(--primary),var(--primary-2));color:#0a0a0a;
+    box-shadow:0 8px 24px rgba(255,190,0,.4);transform:translateY(-2px);
+  }
+
+  /* Menu sections */
+  .menu-section{
+    background:linear-gradient(160deg,var(--panel),var(--panel-2));border:1px solid var(--line);
+    border-radius:30px;padding:2.2rem;margin-bottom:2.2rem;animation:fadeInUp .5s ease;
+  }
+  @keyframes fadeInUp{from{opacity:0;transform:translateY(24px);}to{opacity:1;transform:translateY(0);}}
+  .menu-section h2{
+    font-family:var(--ff-display);color:var(--primary);font-size:1.9rem;margin-bottom:1.6rem;
+    text-align:center;padding-bottom:1.1rem;border-bottom:1px solid var(--line);
+  }
+  .menu-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:1.3rem;}
+
+  .menu-item{
+    background:rgba(255,255,255,.02);border:1px solid var(--line);border-radius:20px;
+    padding:1.5rem;transition:all .35s;position:relative;overflow:hidden;
+  }
+  .menu-item::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;
+    background:linear-gradient(90deg,var(--primary),var(--primary-2));transform:scaleX(0);transform-origin:left;transition:transform .4s;}
+  .menu-item:hover::before{transform:scaleX(1);}
+  .menu-item:hover{background:rgba(255,212,0,.05);border-color:rgba(255,212,0,.4);transform:translateY(-6px);box-shadow:0 16px 34px rgba(0,0,0,.4);}
+  .item-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:.7rem;gap:.6rem;}
+  .menu-item.has-badge{padding-top:2.5rem;}
+  .item-name{color:var(--white);font-size:1.16rem;font-weight:700;flex:1;font-family:var(--ff-display);}
+  .item-price{color:#1a1200;font-size:1.22rem;font-weight:800;white-space:nowrap;font-family:var(--ff-display);
+    background:linear-gradient(120deg,var(--primary),var(--primary-2));border:1px solid rgba(255,255,255,.3);padding:.3rem .75rem;border-radius:10px;box-shadow:0 4px 12px rgba(0,0,0,.35);}
+  .item-desc{color:var(--muted);font-size:.9rem;margin-bottom:1rem;line-height:1.5;min-height:2.6em;}
+  .item-sizes{background:rgba(255,212,0,.06);padding:.8rem;border-radius:12px;margin-bottom:1rem;border:1px solid var(--line);}
+  .item-sizes-title{color:var(--primary);font-size:.78rem;font-weight:700;margin-bottom:.45rem;text-transform:uppercase;letter-spacing:.04em;}
+  .size-price-list{display:flex;flex-direction:column;gap:.25rem;}
+  .size-price-item{color:#aaa;font-size:.83rem;}
+  .size-price-item strong{color:var(--white);}
+  .special-badge{
+    position:absolute;top:0;left:18px;background:linear-gradient(120deg,#ff4545,#d61f1f);color:#fff;
+    padding:.35rem .85rem;border-radius:0 0 12px 12px;font-size:.7rem;font-weight:800;letter-spacing:.03em;
+    animation:pulse 2s infinite;z-index:3;box-shadow:0 6px 14px rgba(0,0,0,.45);display:inline-flex;align-items:center;gap:.3rem;
+  }
+  @keyframes pulse{0%,100%{transform:translateY(0);}50%{transform:translateY(2px);}}
+  .add-to-cart-btn{
+    background:linear-gradient(120deg,var(--primary),var(--primary-2));color:#0a0a0a;border:none;
+    padding:.9rem 1.4rem;border-radius:50px;font-weight:800;font-family:var(--ff-display);cursor:pointer;
+    width:100%;transition:all .3s;display:flex;align-items:center;justify-content:center;gap:.55rem;font-size:.95rem;
+  }
+  .add-to-cart-btn:hover{transform:scale(1.035);box-shadow:0 10px 26px rgba(255,190,0,.4);}
+  .add-to-cart-btn:active{transform:scale(.97);}
+
+  /* Floating cart button */
+  .cart-floating-btn{
+    position:fixed;bottom:24px;right:24px;background:linear-gradient(135deg,var(--primary),var(--primary-2));
+    color:#0a0a0a;border:none;width:66px;height:66px;border-radius:50%;font-size:1.6rem;cursor:pointer;
+    box-shadow:0 12px 30px rgba(255,190,0,.5);z-index:995;transition:all .3s;
+    display:flex;align-items:center;justify-content:center;
+  }
+  .cart-floating-btn:hover{transform:scale(1.08);}
+  .cart-floating-btn .cart-count{
+    position:absolute;top:-4px;right:-4px;background:var(--danger);color:#fff;width:26px;height:26px;
+    border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.82rem;font-weight:800;
+    border:3px solid var(--dark);
+  }
+
+  /* Cart sidebar */
+  .cart-sidebar{
+    position:fixed;right:-450px;top:0;width:440px;max-width:100vw;height:100vh;
+    background:linear-gradient(165deg,#151515,#0c0c0c);border-left:1px solid var(--line);
+    z-index:1400;transition:right .45s cubic-bezier(.2,.9,.2,1.05);overflow-y:auto;box-shadow:-10px 0 40px rgba(0,0,0,.6);
+  }
+  .cart-sidebar.show{right:0;}
+  .cart-header{
+    background:linear-gradient(120deg,var(--primary),var(--primary-2));padding:1.5rem;
+    position:sticky;top:0;z-index:1;
+  }
+  .cart-header h2{color:#0a0a0a;font-family:var(--ff-display);font-size:1.4rem;display:flex;align-items:center;justify-content:space-between;}
+  .close-cart{background:#0a0a0a;color:var(--primary);border:none;width:38px;height:38px;border-radius:50%;cursor:pointer;font-size:1.3rem;transition:all .3s;}
+  .close-cart:hover{transform:rotate(90deg);}
+  .cart-items{padding:1.4rem;min-height:200px;}
+  .cart-item{background:rgba(255,212,0,.05);border:1px solid var(--line);border-radius:16px;padding:1.1rem;margin-bottom:.9rem;animation:slideIn .3s;}
+  @keyframes slideIn{from{opacity:0;transform:translateX(40px);}to{opacity:1;transform:translateX(0);}}
+  .cart-item-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:.7rem;gap:.6rem;}
+  .cart-item-name{color:var(--white);font-weight:700;font-size:1.02rem;}
+  .cart-item-size{color:var(--primary);font-size:.8rem;margin-top:.2rem;}
+  .cart-item-unit-price{color:#999;font-size:.78rem;margin-top:.15rem;}
+  .cart-item-total{color:var(--primary);font-weight:800;font-size:1.1rem;font-family:var(--ff-display);white-space:nowrap;}
+  .cart-item-controls{display:flex;align-items:center;justify-content:space-between;margin-top:.7rem;}
+  .quantity-controls{display:flex;align-items:center;gap:.8rem;background:var(--dark);border-radius:25px;padding:.35rem .9rem;}
+  .qty-btn{background:var(--primary);color:#0a0a0a;border:none;width:28px;height:28px;border-radius:50%;cursor:pointer;font-weight:800;font-size:1rem;transition:.2s;display:flex;align-items:center;justify-content:center;}
+  .qty-btn:hover{transform:scale(1.15);}
+  .qty-display{color:var(--white);font-weight:700;min-width:24px;text-align:center;}
+  .remove-item{background:var(--danger);color:#fff;border:none;padding:.4rem .85rem;border-radius:20px;cursor:pointer;font-weight:700;font-size:.78rem;transition:.3s;}
+  .remove-item:hover{background:#e03131;transform:scale(1.05);}
+  .cart-empty{text-align:center;padding:3.4rem 1rem;color:#888;}
+  .cart-empty i{font-size:3.6rem;margin-bottom:1rem;opacity:.4;}
+  .cart-summary{background:rgba(255,212,0,.07);border-top:1px solid var(--line);padding:1.4rem;position:sticky;bottom:0;}
+  .summary-row{display:flex;justify-content:space-between;margin-bottom:.8rem;font-size:1.02rem;}
+  .summary-total{border-top:1px solid var(--line);padding-top:.9rem;margin-top:.4rem;font-weight:800;font-size:1.35rem;color:var(--primary);font-family:var(--ff-display);}
+  .checkout-btn{
+    background:linear-gradient(120deg,#22d160,#128c4a);color:#fff;border:none;padding:1.1rem;border-radius:50px;
+    font-size:1.05rem;font-weight:800;font-family:var(--ff-display);cursor:pointer;width:100%;transition:all .3s;
+    display:flex;align-items:center;justify-content:center;gap:.7rem;margin-top:1rem;
+  }
+  .checkout-btn:hover{transform:scale(1.03);box-shadow:0 12px 28px rgba(37,211,102,.45);}
+  .clear-cart-btn{background:transparent;color:var(--danger);border:1px solid var(--danger);padding:.75rem;border-radius:20px;font-weight:700;cursor:pointer;width:100%;margin-top:.6rem;transition:.3s;}
+  .clear-cart-btn:hover{background:var(--danger);color:#fff;}
+
+  /* Size modal */
+  .size-modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.85);backdrop-filter:blur(6px);z-index:1500;align-items:center;justify-content:center;animation:fadeIn .3s;}
+  .size-modal.show{display:flex;}
+  @keyframes fadeIn{from{opacity:0;}to{opacity:1;}}
+  .size-modal-content{
+    background:linear-gradient(165deg,#1c1c1c,#111);border-radius:28px;padding:2rem;max-width:480px;width:90%;
+    border:1px solid var(--line);position:relative;animation:slideUp .35s;
+  }
+  @keyframes slideUp{from{transform:translateY(60px);opacity:0;}to{transform:translateY(0);opacity:1;}}
+  .size-modal h3{color:var(--primary);font-family:var(--ff-display);font-size:1.5rem;margin-bottom:1.4rem;text-align:center;}
+  .close-size-modal{position:absolute;top:1rem;right:1rem;background:var(--dark);color:var(--primary);border:1px solid var(--line);width:38px;height:38px;border-radius:50%;cursor:pointer;font-size:1.3rem;transition:.3s;}
+  .close-size-modal:hover{transform:rotate(90deg);background:var(--primary);color:#0a0a0a;}
+  .size-options{display:grid;gap:.9rem;margin-bottom:1.4rem;}
+  .size-option{background:var(--dark);color:var(--white);border:2px solid var(--line);padding:1.1rem;border-radius:16px;cursor:pointer;transition:.3s;display:flex;justify-content:space-between;align-items:center;}
+  .size-option:hover{border-color:var(--primary);background:rgba(255,212,0,.08);}
+  .size-option.selected{background:linear-gradient(120deg,var(--primary),var(--primary-2));color:#0a0a0a;border-color:transparent;transform:scale(1.02);}
+  .size-option-name{font-weight:700;font-size:1.05rem;}
+  .size-option-price{color:var(--primary);font-weight:800;font-size:1.2rem;}
+  .size-option.selected .size-option-price{color:#0a0a0a;}
+  .confirm-size-btn{background:linear-gradient(120deg,var(--primary),var(--primary-2));color:#0a0a0a;border:none;padding:1rem;border-radius:50px;font-weight:800;font-family:var(--ff-display);cursor:pointer;width:100%;font-size:1.02rem;transition:.3s;}
+  .confirm-size-btn:hover{transform:scale(1.03);}
+  .confirm-size-btn:disabled{opacity:.4;cursor:not-allowed;}
+
+  /* Notification / loading (legacy hooks used by JS) */
+  .notification{
+    position:fixed;top:100px;right:20px;background:linear-gradient(120deg,#22d160,#128c4a);color:#fff;
+    padding:1rem 1.5rem;border-radius:16px;box-shadow:0 10px 30px rgba(37,211,102,.4);z-index:1600;display:none;
+    animation:slideInRight .4s;font-weight:600;
+  }
+  .notification.show{display:block;}
+  @keyframes slideInRight{from{transform:translateX(400px);}to{transform:translateX(0);}}
+  .notification i{margin-right:.5rem;color:#fff;}
+  .loading-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.92);z-index:1700;align-items:center;justify-content:center;flex-direction:column;}
+  .loading-overlay.show{display:flex;}
+  .loading-content{text-align:center;}
+  .loading-spinner{width:56px;height:56px;border:5px solid rgba(255,212,0,.25);border-top:5px solid var(--primary);border-radius:50%;animation:spin 1s linear infinite;margin:0 auto 1rem;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+  .loading-text{color:var(--primary);font-size:1.15rem;font-weight:700;font-family:var(--ff-display);}
+
+  @media (max-width:768px){
+    .menu-grid{grid-template-columns:1fr;}
+    .cart-sidebar{width:100%;right:-100%;}
+    .cart-floating-btn{width:58px;height:58px;font-size:1.4rem;bottom:18px;right:18px;}
+  }
+
+  /* ---- menu search ---- */
+  .search-container{position:relative;max-width:560px;margin:0 auto 1rem;}
+  .search-box{width:100%;padding:1.05rem 3.2rem 1.05rem 3.1rem;border-radius:60px;border:2px solid var(--line);background:rgba(255,255,255,.06);color:var(--white);font:600 1rem var(--ff-body);outline:none;transition:.3s;-webkit-appearance:none;appearance:none}
+  .search-box::-webkit-search-cancel-button{display:none}
+  .search-box:focus{border-color:var(--primary);background:rgba(255,212,0,.08);box-shadow:0 0 0 5px rgba(255,212,0,.12),0 12px 30px rgba(0,0,0,.35)}
+  .search-box::placeholder{color:#8e8e8e;font-weight:500}
+  .search-icon{position:absolute;left:1.15rem;top:50%;transform:translateY(-50%);color:var(--primary);font-size:1.05rem;pointer-events:none}
+  .search-clear{position:absolute;right:.6rem;top:50%;transform:translateY(-50%) scale(.6);width:38px;height:38px;border-radius:50%;border:none;background:var(--primary);color:#0a0a0a;cursor:pointer;opacity:0;visibility:hidden;transition:.25s}
+  .search-clear.show{opacity:1;visibility:visible;transform:translateY(-50%) scale(1)}
+  .search-hints{display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;align-items:center;margin-bottom:.8rem;color:var(--muted);font-size:.85rem}
+  .search-hints button{background:rgba(255,212,0,.08);border:1px solid var(--line);color:var(--primary);border-radius:50px;padding:.3rem .9rem;font:700 .82rem var(--ff-body);cursor:pointer;transition:.25s}
+  .search-hints button:hover{background:var(--primary);color:#0a0a0a;transform:translateY(-2px)}
+  .search-count{text-align:center;color:var(--muted);font-size:.9rem;min-height:1.4em;margin-bottom:.6rem}
+  .search-count b{color:var(--primary)}
+  .no-results{text-align:center;padding:3.5rem 1rem;color:var(--muted)}
+  .no-results i{font-size:3rem;color:var(--primary);margin-bottom:1rem;display:block;animation:wobble 2.4s ease-in-out infinite}
+  .no-results h3{color:var(--white);font-family:var(--ff-display);margin-bottom:.4rem}
+  mark.hl{background:rgba(255,212,0,.35);color:inherit;border-radius:4px;padding:0 2px}
+</style>
+</head>
+<body>
+
+<div id="preloader"></div>
+<div class="bg-glow"><span></span><span></span><span></span></div>
+
+<!-- LOADING OVERLAY (used by geolocation checkout) -->
+<div class="loading-overlay" id="loadingOverlay">
+  <div class="loading-content">
+    <div class="loading-spinner"></div>
+    <div class="loading-text" id="loadingText">Getting your location...</div>
+  </div>
+</div>
+
+<!-- NOTIFICATION -->
+<div class="notification" id="notification">
+  <i class="fas fa-check-circle"></i>
+  <span id="notificationText">Item added to cart!</span>
+</div>
+
+<div class="nav-wrap" id="navWrap">
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="index.html" class="brand">
+        <img src="images/logo.png" alt="Urban Crust logo">
+        <span class="brand-name">Urban <span>Crust</span></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html"><i class="fas fa-house"></i> Home</a></li>
+        <li><a href="index.html#about"><i class="fas fa-star"></i> Why Us</a></li>
+        <li><a href="sweets.html" class="nav-sip"><span class="ns-ico"><i class="fas fa-mug-hot"></i></span><span class="ns-txt">Urban Sip</span><em class="ns-new">NEW</em></a></li>
+        <li><a href="index.html#contact"><i class="fas fa-phone"></i> Contact</a></li>
+        <li><a href="urban-menu.html" class="nav-cta active"><i class="fas fa-utensils"></i> Order Now</a></li>
+      </ul>
+      <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </nav>
+  </header>
+</div>
+
+<!-- MENU HERO -->
+<section class="menu-hero">
+  <div class="menu-hero-inner">
+    <div class="eyebrow"><i class="fas fa-utensils"></i> Full Menu</div>
+    <h1>Pick Your <span>Crust.</span></h1>
+    <p>Browse every category, build your cart, and send your order straight to WhatsApp — no signup needed.</p>
+    <div class="menu-hero-strip">
+      <span class="pill"><i class="fas fa-motorcycle"></i> Free Delivery</span>
+      <span class="pill"><i class="fas fa-clock"></i> 1 PM – 2 AM</span>
+      <span class="pill"><i class="fab fa-whatsapp"></i> WhatsApp Checkout</span>
+    </div>
+  </div>
+</section>
+
+<!-- SEARCH (top of page) -->
+<div class="hero-search" id="menuSearch" style="padding:0 1.2rem">
+  <!-- SEARCH -->
+  <div class="search-container">
+    <i class="fas fa-search search-icon"></i>
+    <input type="search" class="search-box" id="searchBox" placeholder="Search burgers, pizza, deals, wings..." autocomplete="off" aria-label="Search the menu" oninput="searchMenu()">
+    <button type="button" class="search-clear" id="searchClear" aria-label="Clear search" onclick="clearSearch()"><i class="fas fa-xmark"></i></button>
+  </div>
+  <div class="search-hints" id="searchHints">
+    <span>Popular:</span>
+    <button type="button" onclick="quickSearch('zinger')">Zinger</button>
+    <button type="button" onclick="quickSearch('pizza')">Pizza</button>
+    <button type="button" onclick="quickSearch('deal')">Deals</button>
+    <button type="button" onclick="quickSearch('wings')">Wings</button>
+    <button type="button" onclick="quickSearch('fries')">Fries</button>
+  </div>
+  <div class="search-count" id="searchCount" aria-live="polite"></div>
+
+</div>
+
+<!-- POSTER REEL -->
+<section class="menu-reel" style="padding:0 0 2rem"><div class="reel"><div class="reel-track"><div class="reel-item" data-pop="images/gallery/zinger-burger.jpg" data-title="Zinger Burger" data-desc="Crispy, juicy and loaded." data-group="menu"><img src="images/gallery/zinger-burger.jpg" alt="Zinger Burger" loading="lazy"></div><div class="reel-item" data-pop="images/gallery/cheezy-pizza.jpg" data-title="Cheezy Pizza" data-desc="Stretchy cheese on every slice." data-group="menu"><img src="images/gallery/cheezy-pizza.jpg" alt="Cheezy Pizza" loading="lazy"></div><div class="reel-item" data-pop="images/gallery/blooming-pizza.jpg" data-title="Blooming Pizza" data-desc="A garlic dip centrepiece." data-group="menu"><img src="images/gallery/blooming-pizza.jpg" alt="Blooming Pizza" loading="lazy"></div><div class="reel-item" data-pop="images/gallery/calzone.jpg" data-title="Calzone" data-desc="Golden, stuffed and served with fries." data-group="menu"><img src="images/gallery/calzone.jpg" alt="Calzone" loading="lazy"></div><div class="reel-item" data-pop="images/gallery/pizza-roll.jpg" data-title="Pizza Roll" data-desc="Crispy pizza wrap with dip." data-group="menu"><img src="images/gallery/pizza-roll.jpg" alt="Pizza Roll" loading="lazy"></div><div class="reel-item" data-pop="images/gallery/chowmein.jpg" data-title="Chowmein" data-desc="Wok tossed noodles." data-group="menu"><img src="images/gallery/chowmein.jpg" alt="Chowmein" loading="lazy"></div><div class="reel-item" data-pop="images/gallery/fried-rice.jpg" data-title="Fried Rice" data-desc="Smoky wok flavour." data-group="menu"><img src="images/gallery/fried-rice.jpg" alt="Fried Rice" loading="lazy"></div><div class="reel-item" data-pop="images/gallery/pasta-crunchy.jpg" data-title="Pasta Crunchy" data-desc="Zinger mac and cheese bake." data-group="menu"><img src="images/gallery/pasta-crunchy.jpg" alt="Pasta Crunchy" loading="lazy"></div><div class="reel-item" data-pop="images/gallery/juicy-bites.jpg" data-title="Juicy Bites" data-desc="Supreme taste burger." data-group="menu"><img src="images/gallery/juicy-bites.jpg" alt="Juicy Bites" loading="lazy"></div><div class="reel-item" data-pop="images/gallery/popular-demand.jpg" data-title="Popular Demand" data-desc="Chest Rs. 300, Leg Rs. 200, Wing Rs. 150." data-group="menu"><img src="images/gallery/popular-demand.jpg" alt="Popular Demand" loading="lazy"></div></div></div></section>
+
+<!-- FLOATING CART BUTTON -->
+<button class="cart-floating-btn" onclick="toggleCart()" id="cartFloatingBtn">
+  <i class="fas fa-shopping-cart"></i>
+  <span class="cart-count" id="cartCount" style="display: none;">0</span>
+</button>
+
+<!-- CART SIDEBAR -->
+<div class="cart-sidebar" id="cartSidebar">
+  <div class="cart-header">
+    <h2>
+      <span><i class="fas fa-shopping-cart"></i> Your Order</span>
+      <button class="close-cart" onclick="toggleCart()">&times;</button>
+    </h2>
+  </div>
+  <div class="cart-items" id="cartItems">
+    <div class="cart-empty">
+      <i class="fas fa-shopping-cart"></i>
+      <p>Your cart is empty</p>
+      <p style="font-size: 0.9rem;">Start adding delicious items!</p>
+    </div>
+  </div>
+  <div class="cart-summary" id="cartSummary" style="display: none;">
+    <div class="summary-row">
+      <span>Total Items:</span>
+      <span id="totalItems">0</span>
+    </div>
+    <div class="summary-row summary-total">
+      <span>Total Amount:</span>
+      <span id="totalAmount">Rs. 0</span>
+    </div>
+    <button class="checkout-btn" onclick="proceedToCheckout()">
+      <i class="fab fa-whatsapp"></i> Send Order via WhatsApp
+    </button>
+    <button class="clear-cart-btn" onclick="clearCart()">
+      <i class="fas fa-trash"></i> Clear Cart
+    </button>
+  </div>
+</div>
+
+<!-- SIZE SELECTION MODAL -->
+<div class="size-modal" id="sizeModal" onclick="closeSizeModal(event)">
+  <div class="size-modal-content" onclick="event.stopPropagation()">
+    <button class="close-size-modal" onclick="closeSizeModal()">&times;</button>
+    <h3><i class="fas fa-expand-arrows-alt"></i> Choose Size</h3>
+    <div class="size-options" id="sizeOptions"></div>
+    <button class="confirm-size-btn" id="confirmSizeBtn" onclick="confirmSize()" disabled>
+      <i class="fas fa-shopping-cart"></i> Add to Cart
+    </button>
+  </div>
+</div>
+
+<!-- MENU CONTAINER -->
+<div class="menu-container">
+  <!-- CATEGORY TABS -->
+  <div class="category-tabs">
+    <button class="tab-btn active" onclick="filterCategory('all')"><i class="fas fa-border-all"></i> All Items</button>
+    <button class="tab-btn" onclick="filterCategory('deals')"><i class="fas fa-fire"></i> Deals</button>
+    <button class="tab-btn" onclick="filterCategory('burgers')"><i class="fas fa-burger"></i> Burgers</button>
+    <button class="tab-btn" onclick="filterCategory('pizza')"><i class="fas fa-pizza-slice"></i> Pizza</button>
+    <button class="tab-btn" onclick="filterCategory('shawarma')"><i class="fas fa-bowl-rice"></i> Shawarma</button>
+    <button class="tab-btn" onclick="filterCategory('rolls')"><i class="fas fa-scroll"></i> Rolls</button>
+    <button class="tab-btn" onclick="filterCategory('fries')"><i class="fas fa-utensils"></i> Fries</button>
+    <button class="tab-btn" onclick="filterCategory('wings')"><i class="fas fa-feather-pointed"></i> Wings</button>
+    <button class="tab-btn" onclick="filterCategory('broasts')"><i class="fas fa-drumstick-bite"></i> Broasts</button>
+    <button class="tab-btn" onclick="filterCategory('sides')"><i class="fas fa-plate-wheat"></i> Sides</button>
+  </div>
+
+  <!-- MENU CONTENT -->
+  <div id="menuContent"><div class="menu-section" id="deals"><h2><i class="fas fa-fire"></i> Deals</h2><div class="menu-grid"><div class="menu-item has-badge">
+                        <span class="special-badge">HOT <i class="fas fa-fire"></i></span>
+                        <div class="item-header">
+                            <div class="item-name">Special 1</div>
+                            <div class="item-price">Rs. 1040</div>
+                        </div>
+                        <div class="item-desc">1x Small Pizza + 1x Crunchy Burger + 1x Drink 500ml</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Special 1&quot;,&quot;price&quot;:1040,&quot;desc&quot;:&quot;1x Small Pizza + 1x Crunchy Burger + 1x Drink 500ml&quot;,&quot;special&quot;:true})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item has-badge">
+                        <span class="special-badge">HOT <i class="fas fa-fire"></i></span>
+                        <div class="item-header">
+                            <div class="item-name">Special 2</div>
+                            <div class="item-price">Rs. 1490</div>
+                        </div>
+                        <div class="item-desc">1x Medium Pizza + 1x Alfredo F1 + 1x Drink 1L</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Special 2&quot;,&quot;price&quot;:1490,&quot;desc&quot;:&quot;1x Medium Pizza + 1x Alfredo F1 + 1x Drink 1L&quot;,&quot;special&quot;:true})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item has-badge">
+                        <span class="special-badge">HOT <i class="fas fa-fire"></i></span>
+                        <div class="item-header">
+                            <div class="item-name">Special 3</div>
+                            <div class="item-price">Rs. 2200</div>
+                        </div>
+                        <div class="item-desc">1x Large Pizza + 1x Crunchy Burger + 1x Patty Burger + 1x Drink 1L</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Special 3&quot;,&quot;price&quot;:2200,&quot;desc&quot;:&quot;1x Large Pizza + 1x Crunchy Burger + 1x Patty Burger + 1x Drink 1L&quot;,&quot;special&quot;:true})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item has-badge">
+                        <span class="special-badge">HOT <i class="fas fa-fire"></i></span>
+                        <div class="item-header">
+                            <div class="item-name">Special 4</div>
+                            <div class="item-price">Rs. 2890</div>
+                        </div>
+                        <div class="item-desc">1x XL Pizza + 1x Pasta F1 + 7x Wings + 1x Drink 1.5L</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Special 4&quot;,&quot;price&quot;:2890,&quot;desc&quot;:&quot;1x XL Pizza + 1x Pasta F1 + 7x Wings + 1x Drink 1.5L&quot;,&quot;special&quot;:true})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Deal 1</div>
+                            <div class="item-price">Rs. 1440</div>
+                        </div>
+                        <div class="item-desc">1x Medium Pizza + 1x Zinger Burger + 1x Drink 1L</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Deal 1&quot;,&quot;price&quot;:1440,&quot;desc&quot;:&quot;1x Medium Pizza + 1x Zinger Burger + 1x Drink 1L&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Deal 2</div>
+                            <div class="item-price">Rs. 3050</div>
+                        </div>
+                        <div class="item-desc">2x Large Pizza + 1x Drink 1.5L</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Deal 2&quot;,&quot;price&quot;:3050,&quot;desc&quot;:&quot;2x Large Pizza + 1x Drink 1.5L&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Deal 3</div>
+                            <div class="item-price">Rs. 1800</div>
+                        </div>
+                        <div class="item-desc">4x Zinger Burger + 1x Drink 1.5L</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Deal 3&quot;,&quot;price&quot;:1800,&quot;desc&quot;:&quot;4x Zinger Burger + 1x Drink 1.5L&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Szinger Deal</div>
+                            <div class="item-price">Rs. 650</div>
+                        </div>
+                        <div class="item-desc">1x Zinger Burger + 1x Fries + 1x Drink 345ml</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Szinger Deal&quot;,&quot;price&quot;:650,&quot;desc&quot;:&quot;1x Zinger Burger + 1x Fries + 1x Drink 345ml&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Swinger Deal</div>
+                            <div class="item-price">Rs. 650</div>
+                        </div>
+                        <div class="item-desc">7x Wings + 1x Fries + 1x Drink 345ml</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Swinger Deal&quot;,&quot;price&quot;:650,&quot;desc&quot;:&quot;7x Wings + 1x Fries + 1x Drink 345ml&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Buzz Deal</div>
+                            <div class="item-price">Rs. 600</div>
+                        </div>
+                        <div class="item-desc">1x Crunchy/Patty + 1x Chicken Piece + 1x Drink 345ml</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Buzz Deal&quot;,&quot;price&quot;:600,&quot;desc&quot;:&quot;1x Crunchy/Patty + 1x Chicken Piece + 1x Drink 345ml&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Kiddy Deal</div>
+                            <div class="item-price">Rs. 500</div>
+                        </div>
+                        <div class="item-desc">1x Nugget Burger + 1x Fries + 1x Drink 345ml</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Kiddy Deal&quot;,&quot;price&quot;:500,&quot;desc&quot;:&quot;1x Nugget Burger + 1x Fries + 1x Drink 345ml&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Wow Deal</div>
+                            <div class="item-price">Rs. 850</div>
+                        </div>
+                        <div class="item-desc">1x Zinger Burger + 1x Fries + 1x Chicken Piece + 1x Drink 345ml</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Wow Deal&quot;,&quot;price&quot;:850,&quot;desc&quot;:&quot;1x Zinger Burger + 1x Fries + 1x Chicken Piece + 1x Drink 345ml&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Chick n Chip</div>
+                            <div class="item-price">Rs. 680</div>
+                        </div>
+                        <div class="item-desc">2x Chicken Piece + 1x Fries + 1x Drink 345ml</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Chick n Chip&quot;,&quot;price&quot;:680,&quot;desc&quot;:&quot;2x Chicken Piece + 1x Fries + 1x Drink 345ml&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Nugget Lover</div>
+                            <div class="item-price">Rs. 800</div>
+                        </div>
+                        <div class="item-desc">15x Nuggets + 2x Drink 345ml</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Nugget Lover&quot;,&quot;price&quot;:800,&quot;desc&quot;:&quot;15x Nuggets + 2x Drink 345ml&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Mighty Deal</div>
+                            <div class="item-price">Rs. 850</div>
+                        </div>
+                        <div class="item-desc">1x Hulk Burger + 1x Fries + 1x Drink 345ml</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Mighty Deal&quot;,&quot;price&quot;:850,&quot;desc&quot;:&quot;1x Hulk Burger + 1x Fries + 1x Drink 345ml&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Friends Deal</div>
+                            <div class="item-price">Rs. 2800</div>
+                        </div>
+                        <div class="item-desc">4x Zinger Burger + 4x Chicken Piece + 1x Drink 1L</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Friends Deal&quot;,&quot;price&quot;:2800,&quot;desc&quot;:&quot;4x Zinger Burger + 4x Chicken Piece + 1x Drink 1L&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Couple Deal</div>
+                            <div class="item-price">Rs. 1200</div>
+                        </div>
+                        <div class="item-desc">2x Zinger Burger + 2x Fries + 2x Drink 345ml</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Couple Deal&quot;,&quot;price&quot;:1200,&quot;desc&quot;:&quot;2x Zinger Burger + 2x Fries + 2x Drink 345ml&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Buddies Deal</div>
+                            <div class="item-price">Rs. 1350</div>
+                        </div>
+                        <div class="item-desc">1x Medium Pizza + 2x Wings + 2x Drinks 345ml</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Buddies Deal&quot;,&quot;price&quot;:1350,&quot;desc&quot;:&quot;1x Medium Pizza + 2x Wings + 2x Drinks 345ml&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">1 Person Deal</div>
+                            <div class="item-price">Rs. 850</div>
+                        </div>
+                        <div class="item-desc">1x Small Pizza + 1x Fries + 1x Drink 345ml</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;1 Person Deal&quot;,&quot;price&quot;:850,&quot;desc&quot;:&quot;1x Small Pizza + 1x Fries + 1x Drink 345ml&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Large Deal</div>
+                            <div class="item-price">Rs. 2100</div>
+                        </div>
+                        <div class="item-desc">1x Large Pizza + 1x Bihari Roll + 1x Drink 1L</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Large Deal&quot;,&quot;price&quot;:2100,&quot;desc&quot;:&quot;1x Large Pizza + 1x Bihari Roll + 1x Drink 1L&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item has-badge">
+                        <span class="special-badge">HOT <i class="fas fa-fire"></i></span>
+                        <div class="item-header">
+                            <div class="item-name">Family Deal</div>
+                            <div class="item-price">Rs. 3300</div>
+                        </div>
+                        <div class="item-desc">2x Large Pizza + 8pc Broast + 1x Drink 1.5L</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Family Deal&quot;,&quot;price&quot;:3300,&quot;desc&quot;:&quot;2x Large Pizza + 8pc Broast + 1x Drink 1.5L&quot;,&quot;special&quot;:true})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div></div></div><div class="menu-section" id="burgers"><h2><i class="fas fa-burger"></i> Burgers</h2><div class="menu-grid"><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Crunchy Burger</div>
+                            <div class="item-price">Rs. 280</div>
+                        </div>
+                        <div class="item-desc">Crispy chicken with fresh veggies</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Crunchy Burger&quot;,&quot;price&quot;:280,&quot;desc&quot;:&quot;Crispy chicken with fresh veggies&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Patty Burger</div>
+                            <div class="item-price">Rs. 280</div>
+                        </div>
+                        <div class="item-desc">Beef patty with special sauce</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Patty Burger&quot;,&quot;price&quot;:280,&quot;desc&quot;:&quot;Beef patty with special sauce&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Chicken Nugget Burger</div>
+                            <div class="item-price">Rs. 350</div>
+                        </div>
+                        <div class="item-desc">Crispy nuggets with mayo</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Chicken Nugget Burger&quot;,&quot;price&quot;:350,&quot;desc&quot;:&quot;Crispy nuggets with mayo&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item has-badge">
+                        <span class="special-badge">HOT <i class="fas fa-fire"></i></span>
+                        <div class="item-header">
+                            <div class="item-name">Zinger Junior</div>
+                            <div class="item-price">Rs. 380</div>
+                        </div>
+                        <div class="item-desc">Small zinger for quick bite</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Zinger Junior&quot;,&quot;price&quot;:380,&quot;desc&quot;:&quot;Small zinger for quick bite&quot;,&quot;special&quot;:true})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item has-badge">
+                        <span class="special-badge">HOT <i class="fas fa-fire"></i></span>
+                        <div class="item-header">
+                            <div class="item-name">Zinger Senior</div>
+                            <div class="item-price">Rs. 450</div>
+                        </div>
+                        <div class="item-desc">Large spicy zinger</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Zinger Senior&quot;,&quot;price&quot;:450,&quot;desc&quot;:&quot;Large spicy zinger&quot;,&quot;special&quot;:true})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Grilled Burger</div>
+                            <div class="item-price">Rs. 450</div>
+                        </div>
+                        <div class="item-desc">Grilled chicken perfection</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Grilled Burger&quot;,&quot;price&quot;:450,&quot;desc&quot;:&quot;Grilled chicken perfection&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Double Chapli</div>
+                            <div class="item-price">Rs. 450</div>
+                        </div>
+                        <div class="item-desc">Double chapli patties</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Double Chapli&quot;,&quot;price&quot;:450,&quot;desc&quot;:&quot;Double chapli patties&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Double Taker</div>
+                            <div class="item-price">Rs. 500</div>
+                        </div>
+                        <div class="item-desc">Double everything burger</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Double Taker&quot;,&quot;price&quot;:500,&quot;desc&quot;:&quot;Double everything burger&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Supreme Burger</div>
+                            <div class="item-price">Rs. 700</div>
+                        </div>
+                        <div class="item-desc">Supreme loaded burger</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Supreme Burger&quot;,&quot;price&quot;:700,&quot;desc&quot;:&quot;Supreme loaded burger&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Hulk Burger</div>
+                            <div class="item-price">Rs. 700</div>
+                        </div>
+                        <div class="item-desc">Massive burger for big appetite</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Hulk Burger&quot;,&quot;price&quot;:700,&quot;desc&quot;:&quot;Massive burger for big appetite&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div></div></div><div class="menu-section" id="pizza"><h2><i class="fas fa-pizza-slice"></i> Pizza</h2><div class="menu-grid"><div class="menu-item has-badge">
+                        <span class="special-badge">HOT <i class="fas fa-fire"></i></span>
+                        <div class="item-header">
+                            <div class="item-name">Crown Crust Pizza</div>
+                            <div class="item-price">Rs. 800 - 2250</div>
+                        </div>
+                        <div class="item-desc">Cheese-filled crown crust</div>
+                        
+                            <div class="item-sizes">
+                                <div class="item-sizes-title">Available Sizes:</div>
+                                <div class="size-price-list">
+                                    <div class="size-price-item"><strong>Small:</strong> Rs. 800</div><div class="size-price-item"><strong>Medium:</strong> Rs. 1100</div><div class="size-price-item"><strong>Large:</strong> Rs. 1800</div><div class="size-price-item"><strong>X-Large:</strong> Rs. 2250</div>
+                                </div>
+                            </div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Crown Crust Pizza&quot;,&quot;sizes&quot;:[{&quot;name&quot;:&quot;Small&quot;,&quot;price&quot;:800},{&quot;name&quot;:&quot;Medium&quot;,&quot;price&quot;:1100},{&quot;name&quot;:&quot;Large&quot;,&quot;price&quot;:1800},{&quot;name&quot;:&quot;X-Large&quot;,&quot;price&quot;:2250}],&quot;desc&quot;:&quot;Cheese-filled crown crust&quot;,&quot;special&quot;:true})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item has-badge">
+                        <span class="special-badge">HOT <i class="fas fa-fire"></i></span>
+                        <div class="item-header">
+                            <div class="item-name">Urban Crust Special</div>
+                            <div class="item-price">Rs. 800 - 2200</div>
+                        </div>
+                        <div class="item-desc">Unique mixed toppings</div>
+                        
+                            <div class="item-sizes">
+                                <div class="item-sizes-title">Available Sizes:</div>
+                                <div class="size-price-list">
+                                    <div class="size-price-item"><strong>Small:</strong> Rs. 800</div><div class="size-price-item"><strong>Medium:</strong> Rs. 1100</div><div class="size-price-item"><strong>Large:</strong> Rs. 1600</div><div class="size-price-item"><strong>X-Large:</strong> Rs. 2200</div>
+                                </div>
+                            </div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Urban Crust Special&quot;,&quot;sizes&quot;:[{&quot;name&quot;:&quot;Small&quot;,&quot;price&quot;:800},{&quot;name&quot;:&quot;Medium&quot;,&quot;price&quot;:1100},{&quot;name&quot;:&quot;Large&quot;,&quot;price&quot;:1600},{&quot;name&quot;:&quot;X-Large&quot;,&quot;price&quot;:2200}],&quot;desc&quot;:&quot;Unique mixed toppings&quot;,&quot;special&quot;:true})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Royal Kabab Pizza</div>
+                            <div class="item-price">Rs. 1300 - 2400</div>
+                        </div>
+                        <div class="item-desc">Kabab crust specialty</div>
+                        
+                            <div class="item-sizes">
+                                <div class="item-sizes-title">Available Sizes:</div>
+                                <div class="size-price-list">
+                                    <div class="size-price-item"><strong>Medium:</strong> Rs. 1300</div><div class="size-price-item"><strong>Large:</strong> Rs. 2100</div><div class="size-price-item"><strong>X-Large:</strong> Rs. 2400</div>
+                                </div>
+                            </div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Royal Kabab Pizza&quot;,&quot;sizes&quot;:[{&quot;name&quot;:&quot;Medium&quot;,&quot;price&quot;:1300},{&quot;name&quot;:&quot;Large&quot;,&quot;price&quot;:2100},{&quot;name&quot;:&quot;X-Large&quot;,&quot;price&quot;:2400}],&quot;desc&quot;:&quot;Kabab crust specialty&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Royal Sausage</div>
+                            <div class="item-price">Rs. 1300 - 2400</div>
+                        </div>
+                        <div class="item-desc">Sausage delight</div>
+                        
+                            <div class="item-sizes">
+                                <div class="item-sizes-title">Available Sizes:</div>
+                                <div class="size-price-list">
+                                    <div class="size-price-item"><strong>Medium:</strong> Rs. 1300</div><div class="size-price-item"><strong>Large:</strong> Rs. 2100</div><div class="size-price-item"><strong>X-Large:</strong> Rs. 2400</div>
+                                </div>
+                            </div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Royal Sausage&quot;,&quot;sizes&quot;:[{&quot;name&quot;:&quot;Medium&quot;,&quot;price&quot;:1300},{&quot;name&quot;:&quot;Large&quot;,&quot;price&quot;:2100},{&quot;name&quot;:&quot;X-Large&quot;,&quot;price&quot;:2400}],&quot;desc&quot;:&quot;Sausage delight&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item has-badge">
+                        <span class="special-badge">HOT <i class="fas fa-fire"></i></span>
+                        <div class="item-header">
+                            <div class="item-name">Donner Pizza</div>
+                            <div class="item-price">Rs. 800 - 2500</div>
+                        </div>
+                        <div class="item-desc">Donner meat special</div>
+                        
+                            <div class="item-sizes">
+                                <div class="item-sizes-title">Available Sizes:</div>
+                                <div class="size-price-list">
+                                    <div class="size-price-item"><strong>Small:</strong> Rs. 800</div><div class="size-price-item"><strong>Medium:</strong> Rs. 1100</div><div class="size-price-item"><strong>Large:</strong> Rs. 1800</div><div class="size-price-item"><strong>X-Large:</strong> Rs. 2500</div>
+                                </div>
+                            </div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Donner Pizza&quot;,&quot;sizes&quot;:[{&quot;name&quot;:&quot;Small&quot;,&quot;price&quot;:800},{&quot;name&quot;:&quot;Medium&quot;,&quot;price&quot;:1100},{&quot;name&quot;:&quot;Large&quot;,&quot;price&quot;:1800},{&quot;name&quot;:&quot;X-Large&quot;,&quot;price&quot;:2500}],&quot;desc&quot;:&quot;Donner meat special&quot;,&quot;special&quot;:true})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Behari Kabab Pizza</div>
+                            <div class="item-price">Rs. 1100 - 2000</div>
+                        </div>
+                        <div class="item-desc">Spicy behari kabab</div>
+                        
+                            <div class="item-sizes">
+                                <div class="item-sizes-title">Available Sizes:</div>
+                                <div class="size-price-list">
+                                    <div class="size-price-item"><strong>Medium:</strong> Rs. 1100</div><div class="size-price-item"><strong>Large:</strong> Rs. 1600</div><div class="size-price-item"><strong>X-Large:</strong> Rs. 2000</div>
+                                </div>
+                            </div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Behari Kabab Pizza&quot;,&quot;sizes&quot;:[{&quot;name&quot;:&quot;Medium&quot;,&quot;price&quot;:1100},{&quot;name&quot;:&quot;Large&quot;,&quot;price&quot;:1600},{&quot;name&quot;:&quot;X-Large&quot;,&quot;price&quot;:2000}],&quot;desc&quot;:&quot;Spicy behari kabab&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Malai Boti Pizza</div>
+                            <div class="item-price">Rs. 800 - 2500</div>
+                        </div>
+                        <div class="item-desc">Creamy malai boti</div>
+                        
+                            <div class="item-sizes">
+                                <div class="item-sizes-title">Available Sizes:</div>
+                                <div class="size-price-list">
+                                    <div class="size-price-item"><strong>Small:</strong> Rs. 800</div><div class="size-price-item"><strong>Medium:</strong> Rs. 1300</div><div class="size-price-item"><strong>Large:</strong> Rs. 1800</div><div class="size-price-item"><strong>X-Large:</strong> Rs. 2500</div>
+                                </div>
+                            </div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Malai Boti Pizza&quot;,&quot;sizes&quot;:[{&quot;name&quot;:&quot;Small&quot;,&quot;price&quot;:800},{&quot;name&quot;:&quot;Medium&quot;,&quot;price&quot;:1300},{&quot;name&quot;:&quot;Large&quot;,&quot;price&quot;:1800},{&quot;name&quot;:&quot;X-Large&quot;,&quot;price&quot;:2500}],&quot;desc&quot;:&quot;Creamy malai boti&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Kabab Crust</div>
+                            <div class="item-price">Rs. 1100 - 2000</div>
+                        </div>
+                        <div class="item-desc">Kabab in crust</div>
+                        
+                            <div class="item-sizes">
+                                <div class="item-sizes-title">Available Sizes:</div>
+                                <div class="size-price-list">
+                                    <div class="size-price-item"><strong>Medium:</strong> Rs. 1100</div><div class="size-price-item"><strong>Large:</strong> Rs. 1600</div><div class="size-price-item"><strong>X-Large:</strong> Rs. 2000</div>
+                                </div>
+                            </div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Kabab Crust&quot;,&quot;sizes&quot;:[{&quot;name&quot;:&quot;Medium&quot;,&quot;price&quot;:1100},{&quot;name&quot;:&quot;Large&quot;,&quot;price&quot;:1600},{&quot;name&quot;:&quot;X-Large&quot;,&quot;price&quot;:2000}],&quot;desc&quot;:&quot;Kabab in crust&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Crispy Special</div>
+                            <div class="item-price">Rs. 800 - 2500</div>
+                        </div>
+                        <div class="item-desc">Extra crispy base</div>
+                        
+                            <div class="item-sizes">
+                                <div class="item-sizes-title">Available Sizes:</div>
+                                <div class="size-price-list">
+                                    <div class="size-price-item"><strong>Small:</strong> Rs. 800</div><div class="size-price-item"><strong>Medium:</strong> Rs. 1300</div><div class="size-price-item"><strong>Large:</strong> Rs. 1800</div><div class="size-price-item"><strong>X-Large:</strong> Rs. 2500</div>
+                                </div>
+                            </div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Crispy Special&quot;,&quot;sizes&quot;:[{&quot;name&quot;:&quot;Small&quot;,&quot;price&quot;:800},{&quot;name&quot;:&quot;Medium&quot;,&quot;price&quot;:1300},{&quot;name&quot;:&quot;Large&quot;,&quot;price&quot;:1800},{&quot;name&quot;:&quot;X-Large&quot;,&quot;price&quot;:2500}],&quot;desc&quot;:&quot;Extra crispy base&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Stuff Crust</div>
+                            <div class="item-price">Rs. 1100 - 2000</div>
+                        </div>
+                        <div class="item-desc">Stuffed crust delight</div>
+                        
+                            <div class="item-sizes">
+                                <div class="item-sizes-title">Available Sizes:</div>
+                                <div class="size-price-list">
+                                    <div class="size-price-item"><strong>Medium:</strong> Rs. 1100</div><div class="size-price-item"><strong>Large:</strong> Rs. 1600</div><div class="size-price-item"><strong>X-Large:</strong> Rs. 2000</div>
+                                </div>
+                            </div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Stuff Crust&quot;,&quot;sizes&quot;:[{&quot;name&quot;:&quot;Medium&quot;,&quot;price&quot;:1100},{&quot;name&quot;:&quot;Large&quot;,&quot;price&quot;:1600},{&quot;name&quot;:&quot;X-Large&quot;,&quot;price&quot;:2000}],&quot;desc&quot;:&quot;Stuffed crust delight&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Chicken Tikka</div>
+                            <div class="item-price">Rs. 700 - 2200</div>
+                        </div>
+                        <div class="item-desc">Tikka chicken pizza</div>
+                        
+                            <div class="item-sizes">
+                                <div class="item-sizes-title">Available Sizes:</div>
+                                <div class="size-price-list">
+                                    <div class="size-price-item"><strong>Small:</strong> Rs. 700</div><div class="size-price-item"><strong>Medium:</strong> Rs. 1000</div><div class="size-price-item"><strong>Large:</strong> Rs. 1600</div><div class="size-price-item"><strong>X-Large:</strong> Rs. 2200</div>
+                                </div>
+                            </div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Chicken Tikka&quot;,&quot;sizes&quot;:[{&quot;name&quot;:&quot;Small&quot;,&quot;price&quot;:700},{&quot;name&quot;:&quot;Medium&quot;,&quot;price&quot;:1000},{&quot;name&quot;:&quot;Large&quot;,&quot;price&quot;:1600},{&quot;name&quot;:&quot;X-Large&quot;,&quot;price&quot;:2200}],&quot;desc&quot;:&quot;Tikka chicken pizza&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Smokey Pizza</div>
+                            <div class="item-price">Rs. 700 - 2200</div>
+                        </div>
+                        <div class="item-desc">Smoky flavored pizza</div>
+                        
+                            <div class="item-sizes">
+                                <div class="item-sizes-title">Available Sizes:</div>
+                                <div class="size-price-list">
+                                    <div class="size-price-item"><strong>Small:</strong> Rs. 700</div><div class="size-price-item"><strong>Medium:</strong> Rs. 1000</div><div class="size-price-item"><strong>Large:</strong> Rs. 1600</div><div class="size-price-item"><strong>X-Large:</strong> Rs. 2200</div>
+                                </div>
+                            </div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Smokey Pizza&quot;,&quot;sizes&quot;:[{&quot;name&quot;:&quot;Small&quot;,&quot;price&quot;:700},{&quot;name&quot;:&quot;Medium&quot;,&quot;price&quot;:1000},{&quot;name&quot;:&quot;Large&quot;,&quot;price&quot;:1600},{&quot;name&quot;:&quot;X-Large&quot;,&quot;price&quot;:2200}],&quot;desc&quot;:&quot;Smoky flavored pizza&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Chicken Fajita</div>
+                            <div class="item-price">Rs. 700 - 2200</div>
+                        </div>
+                        <div class="item-desc">Fajita loaded pizza</div>
+                        
+                            <div class="item-sizes">
+                                <div class="item-sizes-title">Available Sizes:</div>
+                                <div class="size-price-list">
+                                    <div class="size-price-item"><strong>Small:</strong> Rs. 700</div><div class="size-price-item"><strong>Medium:</strong> Rs. 1000</div><div class="size-price-item"><strong>Large:</strong> Rs. 1600</div><div class="size-price-item"><strong>X-Large:</strong> Rs. 2200</div>
+                                </div>
+                            </div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Chicken Fajita&quot;,&quot;sizes&quot;:[{&quot;name&quot;:&quot;Small&quot;,&quot;price&quot;:700},{&quot;name&quot;:&quot;Medium&quot;,&quot;price&quot;:1000},{&quot;name&quot;:&quot;Large&quot;,&quot;price&quot;:1600},{&quot;name&quot;:&quot;X-Large&quot;,&quot;price&quot;:2200}],&quot;desc&quot;:&quot;Fajita loaded pizza&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">BBQ Pizza</div>
+                            <div class="item-price">Rs. 700 - 2200</div>
+                        </div>
+                        <div class="item-desc">BBQ sauce special</div>
+                        
+                            <div class="item-sizes">
+                                <div class="item-sizes-title">Available Sizes:</div>
+                                <div class="size-price-list">
+                                    <div class="size-price-item"><strong>Small:</strong> Rs. 700</div><div class="size-price-item"><strong>Medium:</strong> Rs. 1000</div><div class="size-price-item"><strong>Large:</strong> Rs. 1600</div><div class="size-price-item"><strong>X-Large:</strong> Rs. 2200</div>
+                                </div>
+                            </div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;BBQ Pizza&quot;,&quot;sizes&quot;:[{&quot;name&quot;:&quot;Small&quot;,&quot;price&quot;:700},{&quot;name&quot;:&quot;Medium&quot;,&quot;price&quot;:1000},{&quot;name&quot;:&quot;Large&quot;,&quot;price&quot;:1600},{&quot;name&quot;:&quot;X-Large&quot;,&quot;price&quot;:2200}],&quot;desc&quot;:&quot;BBQ sauce special&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Hot n Spicy</div>
+                            <div class="item-price">Rs. 700 - 2200</div>
+                        </div>
+                        <div class="item-desc">Extra spicy pizza</div>
+                        
+                            <div class="item-sizes">
+                                <div class="item-sizes-title">Available Sizes:</div>
+                                <div class="size-price-list">
+                                    <div class="size-price-item"><strong>Small:</strong> Rs. 700</div><div class="size-price-item"><strong>Medium:</strong> Rs. 1000</div><div class="size-price-item"><strong>Large:</strong> Rs. 1600</div><div class="size-price-item"><strong>X-Large:</strong> Rs. 2200</div>
+                                </div>
+                            </div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Hot n Spicy&quot;,&quot;sizes&quot;:[{&quot;name&quot;:&quot;Small&quot;,&quot;price&quot;:700},{&quot;name&quot;:&quot;Medium&quot;,&quot;price&quot;:1000},{&quot;name&quot;:&quot;Large&quot;,&quot;price&quot;:1600},{&quot;name&quot;:&quot;X-Large&quot;,&quot;price&quot;:2200}],&quot;desc&quot;:&quot;Extra spicy pizza&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Thin Crust</div>
+                            <div class="item-price">Rs. 700 - 2000</div>
+                        </div>
+                        <div class="item-desc">Thin crispy base</div>
+                        
+                            <div class="item-sizes">
+                                <div class="item-sizes-title">Available Sizes:</div>
+                                <div class="size-price-list">
+                                    <div class="size-price-item"><strong>Small:</strong> Rs. 700</div><div class="size-price-item"><strong>Medium:</strong> Rs. 1000</div><div class="size-price-item"><strong>Large:</strong> Rs. 1600</div><div class="size-price-item"><strong>X-Large:</strong> Rs. 2000</div>
+                                </div>
+                            </div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Thin Crust&quot;,&quot;sizes&quot;:[{&quot;name&quot;:&quot;Small&quot;,&quot;price&quot;:700},{&quot;name&quot;:&quot;Medium&quot;,&quot;price&quot;:1000},{&quot;name&quot;:&quot;Large&quot;,&quot;price&quot;:1600},{&quot;name&quot;:&quot;X-Large&quot;,&quot;price&quot;:2000}],&quot;desc&quot;:&quot;Thin crispy base&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Chicken Tandoori</div>
+                            <div class="item-price">Rs. 700 - 2200</div>
+                        </div>
+                        <div class="item-desc">Tandoori chicken pizza</div>
+                        
+                            <div class="item-sizes">
+                                <div class="item-sizes-title">Available Sizes:</div>
+                                <div class="size-price-list">
+                                    <div class="size-price-item"><strong>Small:</strong> Rs. 700</div><div class="size-price-item"><strong>Medium:</strong> Rs. 1000</div><div class="size-price-item"><strong>Large:</strong> Rs. 1600</div><div class="size-price-item"><strong>X-Large:</strong> Rs. 2200</div>
+                                </div>
+                            </div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Chicken Tandoori&quot;,&quot;sizes&quot;:[{&quot;name&quot;:&quot;Small&quot;,&quot;price&quot;:700},{&quot;name&quot;:&quot;Medium&quot;,&quot;price&quot;:1000},{&quot;name&quot;:&quot;Large&quot;,&quot;price&quot;:1600},{&quot;name&quot;:&quot;X-Large&quot;,&quot;price&quot;:2200}],&quot;desc&quot;:&quot;Tandoori chicken pizza&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Pepperoni Pizza</div>
+                            <div class="item-price">Rs. 700 - 2000</div>
+                        </div>
+                        <div class="item-desc">Classic pepperoni</div>
+                        
+                            <div class="item-sizes">
+                                <div class="item-sizes-title">Available Sizes:</div>
+                                <div class="size-price-list">
+                                    <div class="size-price-item"><strong>Small:</strong> Rs. 700</div><div class="size-price-item"><strong>Medium:</strong> Rs. 1000</div><div class="size-price-item"><strong>Large:</strong> Rs. 1600</div><div class="size-price-item"><strong>X-Large:</strong> Rs. 2000</div>
+                                </div>
+                            </div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Pepperoni Pizza&quot;,&quot;sizes&quot;:[{&quot;name&quot;:&quot;Small&quot;,&quot;price&quot;:700},{&quot;name&quot;:&quot;Medium&quot;,&quot;price&quot;:1000},{&quot;name&quot;:&quot;Large&quot;,&quot;price&quot;:1600},{&quot;name&quot;:&quot;X-Large&quot;,&quot;price&quot;:2000}],&quot;desc&quot;:&quot;Classic pepperoni&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Chicken Supreme</div>
+                            <div class="item-price">Rs. 700 - 2200</div>
+                        </div>
+                        <div class="item-desc">Supreme chicken loaded</div>
+                        
+                            <div class="item-sizes">
+                                <div class="item-sizes-title">Available Sizes:</div>
+                                <div class="size-price-list">
+                                    <div class="size-price-item"><strong>Small:</strong> Rs. 700</div><div class="size-price-item"><strong>Medium:</strong> Rs. 1000</div><div class="size-price-item"><strong>Large:</strong> Rs. 1600</div><div class="size-price-item"><strong>X-Large:</strong> Rs. 2200</div>
+                                </div>
+                            </div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Chicken Supreme&quot;,&quot;sizes&quot;:[{&quot;name&quot;:&quot;Small&quot;,&quot;price&quot;:700},{&quot;name&quot;:&quot;Medium&quot;,&quot;price&quot;:1000},{&quot;name&quot;:&quot;Large&quot;,&quot;price&quot;:1600},{&quot;name&quot;:&quot;X-Large&quot;,&quot;price&quot;:2200}],&quot;desc&quot;:&quot;Supreme chicken loaded&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Sausages Pizza</div>
+                            <div class="item-price">Rs. 700 - 2200</div>
+                        </div>
+                        <div class="item-desc">Multiple sausages</div>
+                        
+                            <div class="item-sizes">
+                                <div class="item-sizes-title">Available Sizes:</div>
+                                <div class="size-price-list">
+                                    <div class="size-price-item"><strong>Small:</strong> Rs. 700</div><div class="size-price-item"><strong>Medium:</strong> Rs. 1000</div><div class="size-price-item"><strong>Large:</strong> Rs. 1600</div><div class="size-price-item"><strong>X-Large:</strong> Rs. 2200</div>
+                                </div>
+                            </div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Sausages Pizza&quot;,&quot;sizes&quot;:[{&quot;name&quot;:&quot;Small&quot;,&quot;price&quot;:700},{&quot;name&quot;:&quot;Medium&quot;,&quot;price&quot;:1000},{&quot;name&quot;:&quot;Large&quot;,&quot;price&quot;:1600},{&quot;name&quot;:&quot;X-Large&quot;,&quot;price&quot;:2200}],&quot;desc&quot;:&quot;Multiple sausages&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Margarita Pizza</div>
+                            <div class="item-price">Rs. 600 - 1800</div>
+                        </div>
+                        <div class="item-desc">Classic margarita</div>
+                        
+                            <div class="item-sizes">
+                                <div class="item-sizes-title">Available Sizes:</div>
+                                <div class="size-price-list">
+                                    <div class="size-price-item"><strong>Small:</strong> Rs. 600</div><div class="size-price-item"><strong>Medium:</strong> Rs. 800</div><div class="size-price-item"><strong>Large:</strong> Rs. 1500</div><div class="size-price-item"><strong>X-Large:</strong> Rs. 1800</div>
+                                </div>
+                            </div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Margarita Pizza&quot;,&quot;sizes&quot;:[{&quot;name&quot;:&quot;Small&quot;,&quot;price&quot;:600},{&quot;name&quot;:&quot;Medium&quot;,&quot;price&quot;:800},{&quot;name&quot;:&quot;Large&quot;,&quot;price&quot;:1500},{&quot;name&quot;:&quot;X-Large&quot;,&quot;price&quot;:1800}],&quot;desc&quot;:&quot;Classic margarita&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Vegetable Pizza</div>
+                            <div class="item-price">Rs. 600 - 1500</div>
+                        </div>
+                        <div class="item-desc">Fresh vegetables</div>
+                        
+                            <div class="item-sizes">
+                                <div class="item-sizes-title">Available Sizes:</div>
+                                <div class="size-price-list">
+                                    <div class="size-price-item"><strong>Small:</strong> Rs. 600</div><div class="size-price-item"><strong>Medium:</strong> Rs. 800</div><div class="size-price-item"><strong>Large:</strong> Rs. 1200</div><div class="size-price-item"><strong>X-Large:</strong> Rs. 1500</div>
+                                </div>
+                            </div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Vegetable Pizza&quot;,&quot;sizes&quot;:[{&quot;name&quot;:&quot;Small&quot;,&quot;price&quot;:600},{&quot;name&quot;:&quot;Medium&quot;,&quot;price&quot;:800},{&quot;name&quot;:&quot;Large&quot;,&quot;price&quot;:1200},{&quot;name&quot;:&quot;X-Large&quot;,&quot;price&quot;:1500}],&quot;desc&quot;:&quot;Fresh vegetables&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div></div></div><div class="menu-section" id="shawarma"><h2><i class="fas fa-bowl-rice"></i> Shawarma</h2><div class="menu-grid"><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Chicken Shawarma</div>
+                            <div class="item-price">Rs. 250</div>
+                        </div>
+                        <div class="item-desc">Traditional chicken shawarma</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Chicken Shawarma&quot;,&quot;price&quot;:250,&quot;desc&quot;:&quot;Traditional chicken shawarma&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Chicken Cheese SHRM</div>
+                            <div class="item-price">Rs. 300</div>
+                        </div>
+                        <div class="item-desc">Cheese chicken shawarma</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Chicken Cheese SHRM&quot;,&quot;price&quot;:300,&quot;desc&quot;:&quot;Cheese chicken shawarma&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item has-badge">
+                        <span class="special-badge">HOT <i class="fas fa-fire"></i></span>
+                        <div class="item-header">
+                            <div class="item-name">Zinger Shawarma</div>
+                            <div class="item-price">Rs. 300</div>
+                        </div>
+                        <div class="item-desc">Zinger style shawarma</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Zinger Shawarma&quot;,&quot;price&quot;:300,&quot;desc&quot;:&quot;Zinger style shawarma&quot;,&quot;special&quot;:true})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item has-badge">
+                        <span class="special-badge">HOT <i class="fas fa-fire"></i></span>
+                        <div class="item-header">
+                            <div class="item-name">Zinger Cheese SHRM</div>
+                            <div class="item-price">Rs. 350</div>
+                        </div>
+                        <div class="item-desc">Cheesy zinger shawarma</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Zinger Cheese SHRM&quot;,&quot;price&quot;:350,&quot;desc&quot;:&quot;Cheesy zinger shawarma&quot;,&quot;special&quot;:true})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">BBQ Shawarma</div>
+                            <div class="item-price">Rs. 400</div>
+                        </div>
+                        <div class="item-desc">BBQ sauce shawarma</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;BBQ Shawarma&quot;,&quot;price&quot;:400,&quot;desc&quot;:&quot;BBQ sauce shawarma&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item has-badge">
+                        <span class="special-badge">HOT <i class="fas fa-fire"></i></span>
+                        <div class="item-header">
+                            <div class="item-name">UC Special Shawarma</div>
+                            <div class="item-price">Rs. 400</div>
+                        </div>
+                        <div class="item-desc">Urban Crust special</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;UC Special Shawarma&quot;,&quot;price&quot;:400,&quot;desc&quot;:&quot;Urban Crust special&quot;,&quot;special&quot;:true})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div></div></div><div class="menu-section" id="rolls"><h2><i class="fas fa-scroll"></i> Rolls</h2><div class="menu-grid"><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Pizza Paratha</div>
+                            <div class="item-price">Rs. 500</div>
+                        </div>
+                        <div class="item-desc">Pizza in paratha style</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Pizza Paratha&quot;,&quot;price&quot;:500,&quot;desc&quot;:&quot;Pizza in paratha style&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Zinger Paratha Roll</div>
+                            <div class="item-price">Rs. 400</div>
+                        </div>
+                        <div class="item-desc">Zinger in paratha</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Zinger Paratha Roll&quot;,&quot;price&quot;:400,&quot;desc&quot;:&quot;Zinger in paratha&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Kabab Paratha Roll</div>
+                            <div class="item-price">Rs. 400</div>
+                        </div>
+                        <div class="item-desc">Kabab rolled in paratha</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Kabab Paratha Roll&quot;,&quot;price&quot;:400,&quot;desc&quot;:&quot;Kabab rolled in paratha&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Cheese Paratha</div>
+                            <div class="item-price">Rs. 400</div>
+                        </div>
+                        <div class="item-desc">Cheese filled paratha</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Cheese Paratha&quot;,&quot;price&quot;:400,&quot;desc&quot;:&quot;Cheese filled paratha&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">BBQ Paratha</div>
+                            <div class="item-price">Rs. 400</div>
+                        </div>
+                        <div class="item-desc">BBQ paratha roll</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;BBQ Paratha&quot;,&quot;price&quot;:400,&quot;desc&quot;:&quot;BBQ paratha roll&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Chicken Tikka Roll</div>
+                            <div class="item-price">Rs. 400</div>
+                        </div>
+                        <div class="item-desc">Tikka in roll</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Chicken Tikka Roll&quot;,&quot;price&quot;:400,&quot;desc&quot;:&quot;Tikka in roll&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Tortilla Wrap</div>
+                            <div class="item-price">Rs. 500</div>
+                        </div>
+                        <div class="item-desc">Tortilla wrap style</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Tortilla Wrap&quot;,&quot;price&quot;:500,&quot;desc&quot;:&quot;Tortilla wrap style&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Zinger Wrap</div>
+                            <div class="item-price">Rs. 500</div>
+                        </div>
+                        <div class="item-desc">Zinger tortilla wrap</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Zinger Wrap&quot;,&quot;price&quot;:500,&quot;desc&quot;:&quot;Zinger tortilla wrap&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Double Pizza Paratha</div>
+                            <div class="item-price">Rs. 800</div>
+                        </div>
+                        <div class="item-desc">Double pizza paratha</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Double Pizza Paratha&quot;,&quot;price&quot;:800,&quot;desc&quot;:&quot;Double pizza paratha&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div></div></div><div class="menu-section" id="fries"><h2><i class="fas fa-utensils"></i> Fries</h2><div class="menu-grid"><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Plain Fries</div>
+                            <div class="item-price">Rs. 240 - 340</div>
+                        </div>
+                        <div class="item-desc">Classic fries</div>
+                        
+                            <div class="item-sizes">
+                                <div class="item-sizes-title">Available Sizes:</div>
+                                <div class="size-price-list">
+                                    <div class="size-price-item"><strong>Small:</strong> Rs. 240</div><div class="size-price-item"><strong>Large:</strong> Rs. 340</div>
+                                </div>
+                            </div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Plain Fries&quot;,&quot;sizes&quot;:[{&quot;name&quot;:&quot;Small&quot;,&quot;price&quot;:240},{&quot;name&quot;:&quot;Large&quot;,&quot;price&quot;:340}],&quot;desc&quot;:&quot;Classic fries&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Garlic Mayo Fries</div>
+                            <div class="item-price">Rs. 300 - 400</div>
+                        </div>
+                        <div class="item-desc">Garlic mayo flavor</div>
+                        
+                            <div class="item-sizes">
+                                <div class="item-sizes-title">Available Sizes:</div>
+                                <div class="size-price-list">
+                                    <div class="size-price-item"><strong>Small:</strong> Rs. 300</div><div class="size-price-item"><strong>Large:</strong> Rs. 400</div>
+                                </div>
+                            </div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Garlic Mayo Fries&quot;,&quot;sizes&quot;:[{&quot;name&quot;:&quot;Small&quot;,&quot;price&quot;:300},{&quot;name&quot;:&quot;Large&quot;,&quot;price&quot;:400}],&quot;desc&quot;:&quot;Garlic mayo flavor&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Cheezy Fries</div>
+                            <div class="item-price">Rs. 300 - 400</div>
+                        </div>
+                        <div class="item-desc">Cheese loaded fries</div>
+                        
+                            <div class="item-sizes">
+                                <div class="item-sizes-title">Available Sizes:</div>
+                                <div class="size-price-list">
+                                    <div class="size-price-item"><strong>Small:</strong> Rs. 300</div><div class="size-price-item"><strong>Large:</strong> Rs. 400</div>
+                                </div>
+                            </div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Cheezy Fries&quot;,&quot;sizes&quot;:[{&quot;name&quot;:&quot;Small&quot;,&quot;price&quot;:300},{&quot;name&quot;:&quot;Large&quot;,&quot;price&quot;:400}],&quot;desc&quot;:&quot;Cheese loaded fries&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">BBQ Fries</div>
+                            <div class="item-price">Rs. 300 - 400</div>
+                        </div>
+                        <div class="item-desc">BBQ sauce fries</div>
+                        
+                            <div class="item-sizes">
+                                <div class="item-sizes-title">Available Sizes:</div>
+                                <div class="size-price-list">
+                                    <div class="size-price-item"><strong>Small:</strong> Rs. 300</div><div class="size-price-item"><strong>Large:</strong> Rs. 400</div>
+                                </div>
+                            </div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;BBQ Fries&quot;,&quot;sizes&quot;:[{&quot;name&quot;:&quot;Small&quot;,&quot;price&quot;:300},{&quot;name&quot;:&quot;Large&quot;,&quot;price&quot;:400}],&quot;desc&quot;:&quot;BBQ sauce fries&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item has-badge">
+                        <span class="special-badge">HOT <i class="fas fa-fire"></i></span>
+                        <div class="item-header">
+                            <div class="item-name">Loaded Fries</div>
+                            <div class="item-price">Rs. 600 - 750</div>
+                        </div>
+                        <div class="item-desc">Fully loaded fries</div>
+                        
+                            <div class="item-sizes">
+                                <div class="item-sizes-title">Available Sizes:</div>
+                                <div class="size-price-list">
+                                    <div class="size-price-item"><strong>Small:</strong> Rs. 600</div><div class="size-price-item"><strong>Large:</strong> Rs. 750</div>
+                                </div>
+                            </div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Loaded Fries&quot;,&quot;sizes&quot;:[{&quot;name&quot;:&quot;Small&quot;,&quot;price&quot;:600},{&quot;name&quot;:&quot;Large&quot;,&quot;price&quot;:750}],&quot;desc&quot;:&quot;Fully loaded fries&quot;,&quot;special&quot;:true})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div></div></div><div class="menu-section" id="wings"><h2><i class="fas fa-feather-pointed"></i> Wings</h2><div class="menu-grid"><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Wings Crispy (7 pc)</div>
+                            <div class="item-price">Rs. 450</div>
+                        </div>
+                        <div class="item-desc">7 crispy wings</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Wings Crispy (7 pc)&quot;,&quot;price&quot;:450,&quot;desc&quot;:&quot;7 crispy wings&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Wings Peri Peri (7 pc)</div>
+                            <div class="item-price">Rs. 450</div>
+                        </div>
+                        <div class="item-desc">Peri peri flavor</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Wings Peri Peri (7 pc)&quot;,&quot;price&quot;:450,&quot;desc&quot;:&quot;Peri peri flavor&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Wings BBQ (7 pc)</div>
+                            <div class="item-price">Rs. 450</div>
+                        </div>
+                        <div class="item-desc">BBQ wings</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Wings BBQ (7 pc)&quot;,&quot;price&quot;:450,&quot;desc&quot;:&quot;BBQ wings&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Wings Sweet Honey (7 pc)</div>
+                            <div class="item-price">Rs. 450</div>
+                        </div>
+                        <div class="item-desc">Sweet honey glaze</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Wings Sweet Honey (7 pc)&quot;,&quot;price&quot;:450,&quot;desc&quot;:&quot;Sweet honey glaze&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Wings Crispy Sweet Honey (7 pc)</div>
+                            <div class="item-price">Rs. 450</div>
+                        </div>
+                        <div class="item-desc">Crispy sweet honey</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Wings Crispy Sweet Honey (7 pc)&quot;,&quot;price&quot;:450,&quot;desc&quot;:&quot;Crispy sweet honey&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div></div></div><div class="menu-section" id="broasts"><h2><i class="fas fa-drumstick-bite"></i> Broasts</h2><div class="menu-grid"><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Quarter Broast</div>
+                            <div class="item-price">Rs. 650</div>
+                        </div>
+                        <div class="item-desc">2 pc, 1 Bun, Garlic Dip, Fries</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Quarter Broast&quot;,&quot;price&quot;:650,&quot;desc&quot;:&quot;2 pc, 1 Bun, Garlic Dip, Fries&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Half Broast</div>
+                            <div class="item-price">Rs. 1150</div>
+                        </div>
+                        <div class="item-desc">4 pc, 1 Bun, Fries, Garlic Dip</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Half Broast&quot;,&quot;price&quot;:1150,&quot;desc&quot;:&quot;4 pc, 1 Bun, Fries, Garlic Dip&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Full Broast</div>
+                            <div class="item-price">Rs. 2100</div>
+                        </div>
+                        <div class="item-desc">8 pc, 2 Bun, 2 Fries, 2 Garlic Dip</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Full Broast&quot;,&quot;price&quot;:2100,&quot;desc&quot;:&quot;8 pc, 2 Bun, 2 Fries, 2 Garlic Dip&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item has-badge">
+                        <span class="special-badge">HOT <i class="fas fa-fire"></i></span>
+                        <div class="item-header">
+                            <div class="item-name">Family Broast</div>
+                            <div class="item-price">Rs. 4100</div>
+                        </div>
+                        <div class="item-desc">16 pc, 4 Bun, 4 Fries, 4 Garlic Dip</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Family Broast&quot;,&quot;price&quot;:4100,&quot;desc&quot;:&quot;16 pc, 4 Bun, 4 Fries, 4 Garlic Dip&quot;,&quot;special&quot;:true})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div></div></div><div class="menu-section" id="sides"><h2><i class="fas fa-plate-wheat"></i> Sides</h2><div class="menu-grid"><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Hot Shot (10 pc)</div>
+                            <div class="item-price">Rs. 500</div>
+                        </div>
+                        <div class="item-desc">10 hot shots</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Hot Shot (10 pc)&quot;,&quot;price&quot;:500,&quot;desc&quot;:&quot;10 hot shots&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Chicken Nuggets (7 pc)</div>
+                            <div class="item-price">Rs. 350</div>
+                        </div>
+                        <div class="item-desc">7 crispy nuggets</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Chicken Nuggets (7 pc)&quot;,&quot;price&quot;:350,&quot;desc&quot;:&quot;7 crispy nuggets&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Chicken Piece (1 pc)</div>
+                            <div class="item-price">Rs. 250</div>
+                        </div>
+                        <div class="item-desc">Single chicken piece</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Chicken Piece (1 pc)&quot;,&quot;price&quot;:250,&quot;desc&quot;:&quot;Single chicken piece&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Pizza Burger</div>
+                            <div class="item-price">Rs. 800</div>
+                        </div>
+                        <div class="item-desc">Pizza style burger</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Pizza Burger&quot;,&quot;price&quot;:800,&quot;desc&quot;:&quot;Pizza style burger&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Bihari Roll</div>
+                            <div class="item-price">Rs. 450</div>
+                        </div>
+                        <div class="item-desc">Spicy bihari roll</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Bihari Roll&quot;,&quot;price&quot;:450,&quot;desc&quot;:&quot;Spicy bihari roll&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Kabab Bite</div>
+                            <div class="item-price">Rs. 700</div>
+                        </div>
+                        <div class="item-desc">Kabab bites</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Kabab Bite&quot;,&quot;price&quot;:700,&quot;desc&quot;:&quot;Kabab bites&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Mexican Sandwich</div>
+                            <div class="item-price">Rs. 700</div>
+                        </div>
+                        <div class="item-desc">Mexican style sandwich</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Mexican Sandwich&quot;,&quot;price&quot;:700,&quot;desc&quot;:&quot;Mexican style sandwich&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Cheezy Dip Delight</div>
+                            <div class="item-price">Rs. 1050</div>
+                        </div>
+                        <div class="item-desc">Cheese dip platter</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Cheezy Dip Delight&quot;,&quot;price&quot;:1050,&quot;desc&quot;:&quot;Cheese dip platter&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Chowmien</div>
+                            <div class="item-price">Rs. 500</div>
+                        </div>
+                        <div class="item-desc">Chinese chowmien</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Chowmien&quot;,&quot;price&quot;:500,&quot;desc&quot;:&quot;Chinese chowmien&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Fried Rice</div>
+                            <div class="item-price">Rs. 400</div>
+                        </div>
+                        <div class="item-desc">Fried rice</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Fried Rice&quot;,&quot;price&quot;:400,&quot;desc&quot;:&quot;Fried rice&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Manchurians</div>
+                            <div class="item-price">Rs. 400</div>
+                        </div>
+                        <div class="item-desc">Chinese manchurian</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Manchurians&quot;,&quot;price&quot;:400,&quot;desc&quot;:&quot;Chinese manchurian&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Shashlik</div>
+                            <div class="item-price">Rs. 400</div>
+                        </div>
+                        <div class="item-desc">Grilled shashlik</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Shashlik&quot;,&quot;price&quot;:400,&quot;desc&quot;:&quot;Grilled shashlik&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Rice + Manchurian</div>
+                            <div class="item-price">Rs. 780</div>
+                        </div>
+                        <div class="item-desc">Rice with manchurian</div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Rice + Manchurian&quot;,&quot;price&quot;:780,&quot;desc&quot;:&quot;Rice with manchurian&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Pasta Crunchy</div>
+                            <div class="item-price">Rs. 400 - 800</div>
+                        </div>
+                        <div class="item-desc">Crispy pasta</div>
+                        
+                            <div class="item-sizes">
+                                <div class="item-sizes-title">Available Sizes:</div>
+                                <div class="size-price-list">
+                                    <div class="size-price-item"><strong>Small:</strong> Rs. 400</div><div class="size-price-item"><strong>Large:</strong> Rs. 800</div>
+                                </div>
+                            </div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Pasta Crunchy&quot;,&quot;sizes&quot;:[{&quot;name&quot;:&quot;Small&quot;,&quot;price&quot;:400},{&quot;name&quot;:&quot;Large&quot;,&quot;price&quot;:800}],&quot;desc&quot;:&quot;Crispy pasta&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div><div class="menu-item">
+                        
+                        <div class="item-header">
+                            <div class="item-name">Pasta Alfredo</div>
+                            <div class="item-price">Rs. 400 - 750</div>
+                        </div>
+                        <div class="item-desc">Creamy alfredo</div>
+                        
+                            <div class="item-sizes">
+                                <div class="item-sizes-title">Available Sizes:</div>
+                                <div class="size-price-list">
+                                    <div class="size-price-item"><strong>Small:</strong> Rs. 400</div><div class="size-price-item"><strong>Large:</strong> Rs. 750</div>
+                                </div>
+                            </div>
+                        
+                        <button class="add-to-cart-btn" onclick="handleAddToCart({&quot;name&quot;:&quot;Pasta Alfredo&quot;,&quot;sizes&quot;:[{&quot;name&quot;:&quot;Small&quot;,&quot;price&quot;:400},{&quot;name&quot;:&quot;Large&quot;,&quot;price&quot;:750}],&quot;desc&quot;:&quot;Creamy alfredo&quot;})">
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    </div></div></div></div>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div class="footer-brand"><img src="images/logo.png" alt="Urban Crust"><span>Urban Crust</span></div>
+        <p>Islamabad's boldest fast food — burgers, Crown Crust pizzas, broasts & shawarma made fresh, delivered fast.</p>
+        <div class="social-row">
+          <a href="https://www.facebook.com/people/Urban-Crust/61566038663961/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/923369226600" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sweets.html">Urban Sip</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Get In Touch</h4>
+        <p><i class="fas fa-map-marker-alt"></i> Alpha Arcade, E-16/3, Islamabad</p>
+        <p style="margin-top:.6rem;"><i class="fas fa-phone"></i> <a href="tel:+923369226600" style="color:var(--muted);">0336 9226600</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom"><p>&copy; 2026 <strong>Urban Crust</strong> · Best Fast Food in Islamabad · <a href="#" data-privacy-link style="color:var(--muted)">Privacy choices</a></p></div>
+  </div>
+</footer>
+
+<div class="fab-stack">
+  <button class="fab fab-top" id="fabTop" aria-label="Scroll to top"><i class="fas fa-arrow-up"></i></button>
+</div>
+
+<script src="js/brand.js"></script>
+<script src="js/fx.js"></script>
+<script src="js/track.js"></script>
+<script src="js/menu-fx.js"></script>
+
+<!-- ORDERING LOGIC (unchanged functionality) -->
+    <script>
+        // CONFIGURATION
+        const WHATSAPP_NUMBER = "+923369226600";
+        let cart = [];
+        let currentItem = null;
+        let selectedSize = null;
+        let userLocation = null;
+
+        // MENU DATA
+        const menuData = {
+            deals: [
+                {name: "Special 1", price: 1040, desc: "1x Small Pizza + 1x Crunchy Burger + 1x Drink 500ml", special: true},
+                {name: "Special 2", price: 1490, desc: "1x Medium Pizza + 1x Alfredo F1 + 1x Drink 1L", special: true},
+                {name: "Special 3", price: 2200, desc: "1x Large Pizza + 1x Crunchy Burger + 1x Patty Burger + 1x Drink 1L", special: true},
+                {name: "Special 4", price: 2890, desc: "1x XL Pizza + 1x Pasta F1 + 7x Wings + 1x Drink 1.5L", special: true},
+                {name: "Deal 1", price: 1440, desc: "1x Medium Pizza + 1x Zinger Burger + 1x Drink 1L"},
+                {name: "Deal 2", price: 3050, desc: "2x Large Pizza + 1x Drink 1.5L"},
+                {name: "Deal 3", price: 1800, desc: "4x Zinger Burger + 1x Drink 1.5L"},
+                {name: "Szinger Deal", price: 650, desc: "1x Zinger Burger + 1x Fries + 1x Drink 345ml"},
+                {name: "Swinger Deal", price: 650, desc: "7x Wings + 1x Fries + 1x Drink 345ml"},
+                {name: "Buzz Deal", price: 600, desc: "1x Crunchy/Patty + 1x Chicken Piece + 1x Drink 345ml"},
+                {name: "Kiddy Deal", price: 500, desc: "1x Nugget Burger + 1x Fries + 1x Drink 345ml"},
+                {name: "Wow Deal", price: 850, desc: "1x Zinger Burger + 1x Fries + 1x Chicken Piece + 1x Drink 345ml"},
+                {name: "Chick n Chip", price: 680, desc: "2x Chicken Piece + 1x Fries + 1x Drink 345ml"},
+                {name: "Nugget Lover", price: 800, desc: "15x Nuggets + 2x Drink 345ml"},
+                {name: "Mighty Deal", price: 850, desc: "1x Hulk Burger + 1x Fries + 1x Drink 345ml"},
+                {name: "Friends Deal", price: 2800, desc: "4x Zinger Burger + 4x Chicken Piece + 1x Drink 1L"},
+                {name: "Couple Deal", price: 1200, desc: "2x Zinger Burger + 2x Fries + 2x Drink 345ml"},
+                {name: "Buddies Deal", price: 1350, desc: "1x Medium Pizza + 2x Wings + 2x Drinks 345ml"},
+                {name: "1 Person Deal", price: 850, desc: "1x Small Pizza + 1x Fries + 1x Drink 345ml"},
+                {name: "Large Deal", price: 2100, desc: "1x Large Pizza + 1x Bihari Roll + 1x Drink 1L"},
+                {name: "Family Deal", price: 3300, desc: "2x Large Pizza + 8pc Broast + 1x Drink 1.5L", special: true}
+            ],
+            burgers: [
+                {name: "Crunchy Burger", price: 280, desc: "Crispy chicken with fresh veggies"},
+                {name: "Patty Burger", price: 280, desc: "Beef patty with special sauce"},
+                {name: "Chicken Nugget Burger", price: 350, desc: "Crispy nuggets with mayo"},
+                {name: "Zinger Junior", price: 380, desc: "Small zinger for quick bite", special: true},
+                {name: "Zinger Senior", price: 450, desc: "Large spicy zinger", special: true},
+                {name: "Grilled Burger", price: 450, desc: "Grilled chicken perfection"},
+                {name: "Double Chapli", price: 450, desc: "Double chapli patties"},
+                {name: "Double Taker", price: 500, desc: "Double everything burger"},
+                {name: "Supreme Burger", price: 700, desc: "Supreme loaded burger"},
+                {name: "Hulk Burger", price: 700, desc: "Massive burger for big appetite"}
+            ],
+            pizza: [
+                {name: "Crown Crust Pizza", sizes: [{name: "Small", price: 800}, {name: "Medium", price: 1100}, {name: "Large", price: 1800}, {name: "X-Large", price: 2250}], desc: "Cheese-filled crown crust", special: true},
+                {name: "Urban Crust Special", sizes: [{name: "Small", price: 800}, {name: "Medium", price: 1100}, {name: "Large", price: 1600}, {name: "X-Large", price: 2200}], desc: "Unique mixed toppings", special: true},
+                {name: "Royal Kabab Pizza", sizes: [{name: "Medium", price: 1300}, {name: "Large", price: 2100}, {name: "X-Large", price: 2400}], desc: "Kabab crust specialty"},
+                {name: "Royal Sausage", sizes: [{name: "Medium", price: 1300}, {name: "Large", price: 2100}, {name: "X-Large", price: 2400}], desc: "Sausage delight"},
+                {name: "Donner Pizza", sizes: [{name: "Small", price: 800}, {name: "Medium", price: 1100}, {name: "Large", price: 1800}, {name: "X-Large", price: 2500}], desc: "Donner meat special", special: true},
+                {name: "Behari Kabab Pizza", sizes: [{name: "Medium", price: 1100}, {name: "Large", price: 1600}, {name: "X-Large", price: 2000}], desc: "Spicy behari kabab"},
+                {name: "Malai Boti Pizza", sizes: [{name: "Small", price: 800}, {name: "Medium", price: 1300}, {name: "Large", price: 1800}, {name: "X-Large", price: 2500}], desc: "Creamy malai boti"},
+                {name: "Kabab Crust", sizes: [{name: "Medium", price: 1100}, {name: "Large", price: 1600}, {name: "X-Large", price: 2000}], desc: "Kabab in crust"},
+                {name: "Crispy Special", sizes: [{name: "Small", price: 800}, {name: "Medium", price: 1300}, {name: "Large", price: 1800}, {name: "X-Large", price: 2500}], desc: "Extra crispy base"},
+                {name: "Stuff Crust", sizes: [{name: "Medium", price: 1100}, {name: "Large", price: 1600}, {name: "X-Large", price: 2000}], desc: "Stuffed crust delight"},
+                {name: "Chicken Tikka", sizes: [{name: "Small", price: 700}, {name: "Medium", price: 1000}, {name: "Large", price: 1600}, {name: "X-Large", price: 2200}], desc: "Tikka chicken pizza"},
+                {name: "Smokey Pizza", sizes: [{name: "Small", price: 700}, {name: "Medium", price: 1000}, {name: "Large", price: 1600}, {name: "X-Large", price: 2200}], desc: "Smoky flavored pizza"},
+                {name: "Chicken Fajita", sizes: [{name: "Small", price: 700}, {name: "Medium", price: 1000}, {name: "Large", price: 1600}, {name: "X-Large", price: 2200}], desc: "Fajita loaded pizza"},
+                {name: "BBQ Pizza", sizes: [{name: "Small", price: 700}, {name: "Medium", price: 1000}, {name: "Large", price: 1600}, {name: "X-Large", price: 2200}], desc: "BBQ sauce special"},
+                {name: "Hot n Spicy", sizes: [{name: "Small", price: 700}, {name: "Medium", price: 1000}, {name: "Large", price: 1600}, {name: "X-Large", price: 2200}], desc: "Extra spicy pizza"},
+                {name: "Thin Crust", sizes: [{name: "Small", price: 700}, {name: "Medium", price: 1000}, {name: "Large", price: 1600}, {name: "X-Large", price: 2000}], desc: "Thin crispy base"},
+                {name: "Chicken Tandoori", sizes: [{name: "Small", price: 700}, {name: "Medium", price: 1000}, {name: "Large", price: 1600}, {name: "X-Large", price: 2200}], desc: "Tandoori chicken pizza"},
+                {name: "Pepperoni Pizza", sizes: [{name: "Small", price: 700}, {name: "Medium", price: 1000}, {name: "Large", price: 1600}, {name: "X-Large", price: 2000}], desc: "Classic pepperoni"},
+                {name: "Chicken Supreme", sizes: [{name: "Small", price: 700}, {name: "Medium", price: 1000}, {name: "Large", price: 1600}, {name: "X-Large", price: 2200}], desc: "Supreme chicken loaded"},
+                {name: "Sausages Pizza", sizes: [{name: "Small", price: 700}, {name: "Medium", price: 1000}, {name: "Large", price: 1600}, {name: "X-Large", price: 2200}], desc: "Multiple sausages"},
+                {name: "Margarita Pizza", sizes: [{name: "Small", price: 600}, {name: "Medium", price: 800}, {name: "Large", price: 1500}, {name: "X-Large", price: 1800}], desc: "Classic margarita"},
+                {name: "Vegetable Pizza", sizes: [{name: "Small", price: 600}, {name: "Medium", price: 800}, {name: "Large", price: 1200}, {name: "X-Large", price: 1500}], desc: "Fresh vegetables"}
+            ],
+            shawarma: [
+                {name: "Chicken Shawarma", price: 250, desc: "Traditional chicken shawarma"},
+                {name: "Chicken Cheese SHRM", price: 300, desc: "Cheese chicken shawarma"},
+                {name: "Zinger Shawarma", price: 300, desc: "Zinger style shawarma", special: true},
+                {name: "Zinger Cheese SHRM", price: 350, desc: "Cheesy zinger shawarma", special: true},
+                {name: "BBQ Shawarma", price: 400, desc: "BBQ sauce shawarma"},
+                {name: "UC Special Shawarma", price: 400, desc: "Urban Crust special", special: true}
+            ],
+            rolls: [
+                {name: "Pizza Paratha", price: 500, desc: "Pizza in paratha style"},
+                {name: "Zinger Paratha Roll", price: 400, desc: "Zinger in paratha"},
+                {name: "Kabab Paratha Roll", price: 400, desc: "Kabab rolled in paratha"},
+                {name: "Cheese Paratha", price: 400, desc: "Cheese filled paratha"},
+                {name: "BBQ Paratha", price: 400, desc: "BBQ paratha roll"},
+                {name: "Chicken Tikka Roll", price: 400, desc: "Tikka in roll"},
+                {name: "Tortilla Wrap", price: 500, desc: "Tortilla wrap style"},
+                {name: "Zinger Wrap", price: 500, desc: "Zinger tortilla wrap"},
+                {name: "Double Pizza Paratha", price: 800, desc: "Double pizza paratha"}
+            ],
+            fries: [
+                {name: "Plain Fries", sizes: [{name: "Small", price: 240}, {name: "Large", price: 340}], desc: "Classic fries"},
+                {name: "Garlic Mayo Fries", sizes: [{name: "Small", price: 300}, {name: "Large", price: 400}], desc: "Garlic mayo flavor"},
+                {name: "Cheezy Fries", sizes: [{name: "Small", price: 300}, {name: "Large", price: 400}], desc: "Cheese loaded fries"},
+                {name: "BBQ Fries", sizes: [{name: "Small", price: 300}, {name: "Large", price: 400}], desc: "BBQ sauce fries"},
+                {name: "Loaded Fries", sizes: [{name: "Small", price: 600}, {name: "Large", price: 750}], desc: "Fully loaded fries", special: true}
+            ],
+            wings: [
+                {name: "Wings Crispy (7 pc)", price: 450, desc: "7 crispy wings"},
+                {name: "Wings Peri Peri (7 pc)", price: 450, desc: "Peri peri flavor"},
+                {name: "Wings BBQ (7 pc)", price: 450, desc: "BBQ wings"},
+                {name: "Wings Sweet Honey (7 pc)", price: 450, desc: "Sweet honey glaze"},
+                {name: "Wings Crispy Sweet Honey (7 pc)", price: 450, desc: "Crispy sweet honey"}
+            ],
+            broasts: [
+                {name: "Quarter Broast", price: 650, desc: "2 pc, 1 Bun, Garlic Dip, Fries"},
+                {name: "Half Broast", price: 1150, desc: "4 pc, 1 Bun, Fries, Garlic Dip"},
+                {name: "Full Broast", price: 2100, desc: "8 pc, 2 Bun, 2 Fries, 2 Garlic Dip"},
+                {name: "Family Broast", price: 4100, desc: "16 pc, 4 Bun, 4 Fries, 4 Garlic Dip", special: true}
+            ],
+            sides: [
+                {name: "Hot Shot (10 pc)", price: 500, desc: "10 hot shots"},
+                {name: "Chicken Nuggets (7 pc)", price: 350, desc: "7 crispy nuggets"},
+                {name: "Chicken Piece (1 pc)", price: 250, desc: "Single chicken piece"},
+                {name: "Pizza Burger", price: 800, desc: "Pizza style burger"},
+                {name: "Bihari Roll", price: 450, desc: "Spicy bihari roll"},
+                {name: "Kabab Bite", price: 700, desc: "Kabab bites"},
+                {name: "Mexican Sandwich", price: 700, desc: "Mexican style sandwich"},
+                {name: "Cheezy Dip Delight", price: 1050, desc: "Cheese dip platter"},
+                {name: "Chowmien", price: 500, desc: "Chinese chowmien"},
+                {name: "Fried Rice", price: 400, desc: "Fried rice"},
+                {name: "Manchurians", price: 400, desc: "Chinese manchurian"},
+                {name: "Shashlik", price: 400, desc: "Grilled shashlik"},
+                {name: "Rice + Manchurian", price: 780, desc: "Rice with manchurian"},
+                {name: "Pasta Crunchy", sizes: [{name: "Small", price: 400}, {name: "Large", price: 800}], desc: "Crispy pasta"},
+                {name: "Pasta Alfredo", sizes: [{name: "Small", price: 400}, {name: "Large", price: 750}], desc: "Creamy alfredo"}
+            ]
+        };
+
+        // RENDER MENU
+        function renderMenu(category = 'all') {
+            currentCategory = category;
+            const container = document.getElementById('menuContent');
+            container.innerHTML = '';
+            const q = (searchQuery || '').trim().toLowerCase();
+            const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+            const reEsc = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            const hl = s => { const t = esc(s); if (!q) return t; return t.replace(new RegExp('(' + reEsc(esc(q)) + ')', 'gi'), '<mark class="hl">$1</mark>'); };
+            const matches = it => !q || (it.name + ' ' + (it.desc || '')).toLowerCase().includes(q);
+            let totalShown = 0;
+
+            const categories = category === 'all' ? Object.keys(menuData) : [category];
+            const categoryEmojis = {
+                deals: '<i class="fas fa-fire"></i>',
+                burgers: '<i class="fas fa-burger"></i>',
+                pizza: '<i class="fas fa-pizza-slice"></i>',
+                shawarma: '<i class="fas fa-bowl-rice"></i>',
+                rolls: '<i class="fas fa-scroll"></i>',
+                fries: '<i class="fas fa-utensils"></i>',
+                wings: '<i class="fas fa-feather-pointed"></i>',
+                broasts: '<i class="fas fa-drumstick-bite"></i>',
+                sides: '<i class="fas fa-plate-wheat"></i>'
+            };
+
+            categories.forEach(cat => {
+                const section = document.createElement('div');
+                section.className = 'menu-section';
+                section.id = cat;
+
+                section.innerHTML = `<h2>${categoryEmojis[cat]} ${cat.charAt(0).toUpperCase() + cat.slice(1)}</h2>`;
+
+                const grid = document.createElement('div');
+                grid.className = 'menu-grid';
+
+                const catItems = menuData[cat].filter(matches);
+                if (!catItems.length) return;
+                totalShown += catItems.length;
+                catItems.forEach(item => {
+                    const card = document.createElement('div');
+                    card.className = 'menu-item'; if(item.special) card.classList.add('has-badge');
+                    
+                    let priceDisplay = '';
+                    let sizesHTML = '';
+                    
+                    if (item.sizes) {
+                        const prices = item.sizes.map(s => s.price);
+                        priceDisplay = `Rs. ${Math.min(...prices)} - ${Math.max(...prices)}`;
+                        
+                        sizesHTML = `
+                            <div class="item-sizes">
+                                <div class="item-sizes-title">Available Sizes:</div>
+                                <div class="size-price-list">
+                                    ${item.sizes.map(s => `<div class="size-price-item"><strong>${s.name}:</strong> Rs. ${s.price}</div>`).join('')}
+                                </div>
+                            </div>
+                        `;
+                    } else {
+                        priceDisplay = `Rs. ${item.price}`;
+                    }
+
+                    card.innerHTML = `
+                        ${item.special ? '<span class="special-badge">HOT <i class="fas fa-fire"></i></span>' : ''}
+                        <div class="item-header">
+                            <div class="item-name">${hl(item.name)}</div>
+                            <div class="item-price">${priceDisplay}</div>
+                        </div>
+                        <div class="item-desc">${hl(item.desc || '')}</div>
+                        ${sizesHTML}
+                        <button class="add-to-cart-btn" onclick='handleAddToCart(${JSON.stringify(item).replace(/'/g, "&apos;")})'>
+                            <i class="fas fa-cart-plus"></i> Add to Cart
+                        </button>
+                    `;
+                    grid.appendChild(card);
+                });
+
+                section.appendChild(grid);
+                container.appendChild(section);
+            });
+
+            const countEl = document.getElementById('searchCount');
+            const clearBtn = document.getElementById('searchClear');
+            if (clearBtn) clearBtn.classList.toggle('show', !!q);
+            if (countEl) countEl.innerHTML = q ? (totalShown ? `Showing <b>${totalShown}</b> result${totalShown === 1 ? '' : 's'} for &ldquo;<b>${esc(q)}</b>&rdquo;` : '') : '';
+            if (!totalShown) {
+                container.innerHTML = `<div class="no-results"><i class="fas fa-magnifying-glass"></i><h3>No matches for &ldquo;${esc(q)}&rdquo;</h3><p>Try another word like <b>zinger</b>, <b>pizza</b> or <b>deal</b>.</p><button class="add-to-cart-btn" style="max-width:240px;margin:1.2rem auto 0" onclick="clearSearch()"><i class="fas fa-rotate-left"></i> Show full menu</button></div>`;
+            }
+        }
+
+        // SEARCH
+        let currentCategory = 'all';
+        let searchQuery = '';
+        let searchTimer = null;
+        function setActiveTab(cat) {
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.toggle('active', (btn.getAttribute('onclick') || '').includes("'" + cat + "'"));
+            });
+        }
+        function searchMenu() {
+            clearTimeout(searchTimer);
+            searchTimer = setTimeout(() => {
+                searchQuery = document.getElementById('searchBox').value;
+                setActiveTab('all');
+                renderMenu('all');
+                if (window.ucTrack && searchQuery.trim().length > 1) ucTrack('search', { q: searchQuery.trim().toLowerCase().slice(0, 60) });
+            }, 160);
+        }
+        function quickSearch(term) {
+            document.getElementById('searchBox').value = term;
+            searchQuery = term;
+            setActiveTab('all');
+            renderMenu('all');
+            if (window.ucTrack) ucTrack('search', { q: term, via: 'chip' });
+            document.getElementById('searchBox').scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+        function clearSearch() {
+            const box = document.getElementById('searchBox');
+            box.value = ''; searchQuery = '';
+            renderMenu(currentCategory);
+            box.focus();
+        }
+
+        // FILTER CATEGORY
+        function filterCategory(cat) {
+            setActiveTab(cat);
+            searchQuery = '';
+            const box = document.getElementById('searchBox'); if (box) box.value = '';
+            renderMenu(cat);
+            if (window.ucTrack) ucTrack('category', { cat: cat });
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // HANDLE ADD TO CART
+        function handleAddToCart(item) {
+            if (item.sizes && item.sizes.length > 0) {
+                openSizeModal(item);
+            } else {
+                addToCart(item);
+                showNotification(`${item.name} added to cart!`);
+            }
+        }
+
+        // OPEN SIZE MODAL
+        function openSizeModal(item) {
+            currentItem = item;
+            selectedSize = null;
+            
+            const sizeOptions = document.getElementById('sizeOptions');
+            sizeOptions.innerHTML = '';
+            
+            item.sizes.forEach(size => {
+                const option = document.createElement('div');
+                option.className = 'size-option';
+                option.innerHTML = `
+                    <span class="size-option-name">${size.name}</span>
+                    <span class="size-option-price">Rs. ${size.price}</span>
+                `;
+                option.onclick = () => selectSize(size, option);
+                sizeOptions.appendChild(option);
+            });
+            
+            document.getElementById('confirmSizeBtn').disabled = true;
+            document.getElementById('sizeModal').classList.add('show');
+        }
+
+        // SELECT SIZE
+        function selectSize(size, element) {
+            document.querySelectorAll('.size-option').forEach(opt => opt.classList.remove('selected'));
+            element.classList.add('selected');
+            selectedSize = size;
+            document.getElementById('confirmSizeBtn').disabled = false;
+        }
+
+        // CONFIRM SIZE
+        function confirmSize() {
+            if (selectedSize && currentItem) {
+                addToCart(currentItem, selectedSize);
+                closeSizeModal();
+                showNotification(`${currentItem.name} (${selectedSize.name}) added to cart!`);
+            }
+        }
+
+        // CLOSE SIZE MODAL
+        function closeSizeModal(event) {
+            if (event && event.target.classList.contains('size-modal-content')) return;
+            document.getElementById('sizeModal').classList.remove('show');
+        }
+
+        // ADD TO CART
+        function addToCart(item, size = null) {
+            const price = size ? size.price : item.price;
+            const sizeName = size ? size.name : null;
+            
+            const existingIndex = cart.findIndex(cartItem => 
+                cartItem.name === item.name && cartItem.size === sizeName
+            );
+
+            if (existingIndex !== -1) {
+                cart[existingIndex].quantity += 1;
+            } else {
+                cart.push({
+                    name: item.name,
+                    price: price,
+                    size: sizeName,
+                    quantity: 1
+                });
+            }
+
+            updateCartDisplay();
+        }
+
+        // UPDATE CART DISPLAY
+        function updateCartDisplay() {
+            const cartItems = document.getElementById('cartItems');
+            const cartSummary = document.getElementById('cartSummary');
+            const cartCount = document.getElementById('cartCount');
+            
+            const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+            const totalAmount = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+            
+            // Update cart count
+            if (totalItems > 0) {
+                cartCount.textContent = totalItems;
+                cartCount.style.display = 'flex';
+            } else {
+                cartCount.style.display = 'none';
+            }
+            
+            if (cart.length === 0) {
+                cartItems.innerHTML = `
+                    <div class="cart-empty">
+                        <i class="fas fa-shopping-cart"></i>
+                        <p>Your cart is empty</p>
+                        <p style="font-size: 0.9rem;">Start adding delicious items!</p>
+                    </div>
+                `;
+                cartSummary.style.display = 'none';
+                return;
+            }
+
+            // Render cart items
+            cartItems.innerHTML = '';
+            cart.forEach((item, index) => {
+                const itemTotal = item.price * item.quantity;
+                
+                const cartItem = document.createElement('div');
+                cartItem.className = 'cart-item';
+                cartItem.innerHTML = `
+                    <div class="cart-item-header">
+                        <div class="cart-item-info">
+                            <div class="cart-item-name">${item.name}</div>
+                            ${item.size ? `<div class="cart-item-size">${item.size}</div>` : ''}
+                            <div class="cart-item-unit-price">Rs. ${item.price} each</div>
+                        </div>
+                        <div class="cart-item-total">Rs. ${itemTotal}</div>
+                    </div>
+                    <div class="cart-item-controls">
+                        <div class="quantity-controls">
+                            <button class="qty-btn" onclick="updateQuantity(${index}, -1)">−</button>
+                            <span class="qty-display">${item.quantity}</span>
+                            <button class="qty-btn" onclick="updateQuantity(${index}, 1)">+</button>
+                        </div>
+                        <button class="remove-item" onclick="removeFromCart(${index})">
+                            <i class="fas fa-trash"></i> Remove
+                        </button>
+                    </div>
+                `;
+                cartItems.appendChild(cartItem);
+            });
+
+            // Update summary
+            document.getElementById('totalItems').textContent = totalItems;
+            document.getElementById('totalAmount').textContent = `Rs. ${totalAmount}`;
+            cartSummary.style.display = 'block';
+        }
+
+        // UPDATE QUANTITY
+        function updateQuantity(index, change) {
+            cart[index].quantity += change;
+            if (cart[index].quantity <= 0) {
+                cart.splice(index, 1);
+            }
+            updateCartDisplay();
+        }
+
+        // REMOVE FROM CART
+        function removeFromCart(index) {
+            cart.splice(index, 1);
+            updateCartDisplay();
+            showNotification('Item removed from cart');
+        }
+
+        // CLEAR CART
+        function clearCart() {
+            if (confirm('Clear all items from cart?')) {
+                cart = [];
+                updateCartDisplay();
+                showNotification('Cart cleared');
+            }
+        }
+
+        // TOGGLE CART
+        function toggleCart() {
+            document.getElementById('cartSidebar').classList.toggle('show');
+        }
+
+        // SHOW NOTIFICATION
+        function showNotification(message) {
+            const notification = document.getElementById('notification');
+            document.getElementById('notificationText').textContent = message;
+            notification.classList.add('show');
+            
+            setTimeout(() => {
+                notification.classList.remove('show');
+            }, 3000);
+        }
+
+        // SHOW LOADING
+        function showLoading(text) {
+            document.getElementById('loadingText').textContent = text;
+            document.getElementById('loadingOverlay').classList.add('show');
+        }
+
+        // HIDE LOADING
+        function hideLoading() {
+            document.getElementById('loadingOverlay').classList.remove('show');
+        }
+
+        // GET USER LOCATION
+        function getUserLocation() {
+            return new Promise((resolve, reject) => {
+                if (!navigator.geolocation) {
+                    reject(new Error('Geolocation not supported'));
+                    return;
+                }
+
+                showLoading('Getting your location...');
+
+                navigator.geolocation.getCurrentPosition(
+                    (position) => {
+                        userLocation = {
+                            lat: position.coords.latitude,
+                            lng: position.coords.longitude,
+                            accuracy: position.coords.accuracy
+                        };
+                        hideLoading();
+                        resolve(userLocation);
+                    },
+                    (error) => {
+                        hideLoading();
+                        reject(error);
+                    },
+                    {
+                        enableHighAccuracy: true,
+                        timeout: 30000,
+                        maximumAge: 0
+                    }
+                );
+            });
+        }
+
+        // PROCEED TO CHECKOUT
+        async function proceedToCheckout() {
+            if (cart.length === 0) {
+                alert('Your cart is empty!');
+                return;
+            }
+
+            try {
+                // Get location
+                await getUserLocation();
+                
+                // Generate order message
+                const totalAmount = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+                const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+                const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${userLocation.lat},${userLocation.lng}`;
+
+                let message = `🍕 *URBAN CRUST ORDER*\n\n`;
+                message += `🛒 *ORDER DETAILS (${totalItems} items):*\n`;
+                message += `━━━━━━━━━━━━━━━\n`;
+                
+                cart.forEach((item, index) => {
+                    message += `${index + 1}. ${item.name}`;
+                    if (item.size) message += ` (${item.size})`;
+                    message += `\n   Qty: ${item.quantity} × Rs. ${item.price} = Rs. ${item.price * item.quantity}\n\n`;
+                });
+                
+                message += `━━━━━━━━━━━━━━━\n`;
+                message += `💰 *TOTAL: Rs. ${totalAmount}*\n\n`;
+                message += `📍 *DELIVERY LOCATION:*\n${mapsUrl}\n`;
+                message += `✅ Accuracy: ±${Math.round(userLocation.accuracy)}m\n\n`;
+                message += `━━━━━━━━━━━━━━━\n`;
+                message += `📍 Urban Crust - Alpha Arcade E-16/3, Islamabad\n`;
+                message += `☎️ 0341 977 9177\n\n`;
+                message += `🌐 Order from: Urban Crust Website`;
+
+                // Open WhatsApp
+                const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
+                if (window.ucTrack) ucTrack('order_submit', { items: typeof totalItems !== 'undefined' ? totalItems : 0, total: typeof totalAmount !== 'undefined' ? totalAmount : 0 });
+                window.open(whatsappUrl, '_blank');
+                
+                // Clear cart after successful order
+                setTimeout(() => {
+                    cart = [];
+                    updateCartDisplay();
+                    toggleCart();
+                    showNotification('Order sent! Check WhatsApp');
+                }, 1000);
+
+            } catch (error) {
+                console.error('Location error:', error);
+                
+                const proceed = confirm(
+                    'Could not get your location automatically.\n\n' +
+                    'You can share your location in WhatsApp when placing the order.\n\n' +
+                    'Continue to WhatsApp?'
+                );
+
+                if (proceed) {
+                    // Generate order without location
+                    const totalAmount = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+                    const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+
+                    let message = `🍕 *URBAN CRUST ORDER*\n\n`;
+                    message += `🛒 *ORDER DETAILS (${totalItems} items):*\n`;
+                    message += `━━━━━━━━━━━━━━━\n`;
+                    
+                    cart.forEach((item, index) => {
+                        message += `${index + 1}. ${item.name}`;
+                        if (item.size) message += ` (${item.size})`;
+                        message += `\n   Qty: ${item.quantity} × Rs. ${item.price} = Rs. ${item.price * item.quantity}\n\n`;
+                    });
+                    
+                    message += `━━━━━━━━━━━━━━━\n`;
+                    message += `💰 *TOTAL: Rs. ${totalAmount}*\n\n`;
+                    message += `📍 *DELIVERY LOCATION:*\n`;
+                    message += `(Please share your location in WhatsApp)\n\n`;
+                    message += `━━━━━━━━━━━━━━━\n`;
+                    message += `📍 Urban Crust - Alpha Arcade E-16/3, Islamabad\n`;
+                    message += `☎️ 0341 977 9177\n\n`;
+                    message += `🌐 Order from: Urban Crust Website`;
+
+                    const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
+                    if (window.ucTrack) ucTrack('order_submit', { items: typeof totalItems !== 'undefined' ? totalItems : 0, total: typeof totalAmount !== 'undefined' ? totalAmount : 0, noLocation: true });
+                    window.open(whatsappUrl, '_blank');
+                    
+                    setTimeout(() => {
+                        cart = [];
+                        updateCartDisplay();
+                        toggleCart();
+                        showNotification('Order sent! Share location in WhatsApp');
+                    }, 1000);
+                }
+            }
+        }
+
+        // INITIALIZE
+        renderMenu('all');
+        (function(){try{const q=new URLSearchParams(location.search).get('q');if(q){document.getElementById('searchBox').value=q;searchQuery=q;renderMenu('all');}}catch(e){}})();
+        updateCartDisplay();
+    </script>
+</body>
+</html>
